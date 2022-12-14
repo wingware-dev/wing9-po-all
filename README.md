@@ -7,7 +7,7 @@ This repository contains translations of Wing version 9 for all Wing Python IDE 
     PO/en -- Empty translation with all strings; use this to start a new translation
     PO/de -- German (by Christoph Heitkamp)
     PO/fr -- French (by Jean Sanchez and Laurent Fasnacht)
-    PO/ru -- Russian (by Alexandr Dragunkin
+    PO/ru -- Russian (by Alexandr Dragunkin)
     PO/es -- Spanish (incomplete and not currently active)
 
 These can be edited with any number of tools available for working with gettext PO files
@@ -43,7 +43,7 @@ These contain strings users will see in the UI:
 	src_guimgr.po
 	src_guiutils.po
 	src_guiutils_pysidescintilla.po
-  src_package.po
+	src_package.po
 	src_plugins_cluster.po
 	src_plugins_container.po
 	plugins_cluster_dockercompose.po
@@ -90,15 +90,15 @@ from strings in code and not docstrings:
 These are currently unused or only contain error strings and can be entirely skipped:
 	
 	plugins_container__docker_sleep.po
-  scripts_brief.po
+	scripts_brief.po
 	scripts_testapi.po
 	src_profile.po
-  src_guiutils_scintillaedit.po
+	src_guiutils_scintillaedit.po
 	src_docutils_*.po
 	src_external_*.po
 	src_parsetools.po
-  src_wingbase_pexpect.po
-  src_wingbase_pexpect_ptyprocess.po
+	src_wingbase_pexpect.po
+	src_wingbase_pexpect_ptyprocess.po
 
 
 Starting a New Translation
@@ -120,9 +120,9 @@ When you are ready, you can try out your translation in Wing 9, as follows:
 
 First convert all the `.po` files in your translation to `.mo` files:
 
-  cd /path/to/wing9-po-all
-  python3 msgfmt.py PO/xx/*.po
-	
+	cd /path/to/wing9-po-all
+	python3 msgfmt.py PO/xx/*.po
+
 You'll need to correct the paths in the above to match where you have your wing9-po-all
 directory and relace `xx` with the 2-letter language code you are using.
 
@@ -169,21 +169,21 @@ You will need to replace xx with the correct 2-letter translation code(s) and ad
 To start Wing bypassing macOS security checks that dislike changing the *.app* contents, run 
 from the command line:
 
-    "/Applications/Wing Pro.app/Contents/Resources/wing"
-   
+	"/Applications/Wing Pro.app/Contents/Resources/wing"
+
 ##Windows##
 
 On Windows, the command to run to generate the `.mo` files differs somewhat:
 
-  cd \path\to\wing9-po-all
-  python.exe msgfmt.py PO\xx\*.po
+	cd \path\to\wing9-po-all
+	python.exe msgfmt.py PO\xx\*.po
 
 You will need to replace xx with the correct 2-letter translation code(s) and adjust paths as necessary.
 
 To create a symbolic link from your Wing installation into your development area on
 Windows, run a command like the following as Administrator:
 
-  cd "c:\Program Files\Wing Pro 9\resources\locale\fr"
+	cd "c:\Program Files\Wing Pro 9\resources\locale\fr"
 	move LC_MESSAGES LC_MESSAGES.old
 	`mklink /D "c:\Program Files\Wing Pro 9\resources\locale\fr\LC_MESSAGES" c:\path\to\wing9-po-all\PO\xx\LC_MESSAGES`
 
