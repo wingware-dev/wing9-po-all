@@ -195,7 +195,7 @@ Submitting Your Translation
 Once you've completed enough of the translation for it to be added to Wing, clone the
 wing9-po-all repository, drop in your PO/xx directory and add it to the forked repository
 with `git add`.  Then submit a pull request and *also* email support@wingware.com so that
-we can be sure your pull request is processed quickly.
+we can be sure your pull request is processed quickly.  
 
 Getting Help
 ------------
