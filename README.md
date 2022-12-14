@@ -108,10 +108,17 @@ To start a translation for which Wing does not yet have support, you'll need to 
 `PO/en` files to `PO/xx` where `xx` is replaced with the ISO 639-1 lower case two-letter
 language code for the language you are going to translate to.
 
-Then use any editor or translation tool that supports .po files to work on your translation.
+Editing Your Translation
+------------------------
+
+You can use any editor or translation tool that supports `.po` files to work on your translation.
 Using a translation tool is typically better than using an unspecialized text editor, because
 the tool will suggest translations and make it easier to manage how many and which strings
 are still untranslated.
+
+Some possibilities for editors can be found here:
+
+https://www.drupal.org/community/contributor-guide/reference-information/localize-drupal-org/working-with-offline/editors-for-po-files
 
 Building and Testing MO files
 -----------------------------
