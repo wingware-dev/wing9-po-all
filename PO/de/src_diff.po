@@ -1,0 +1,302 @@
+# Module src_diff translation file for language=de
+# Copyright (C) 2016 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 6.0.0\n"
+"POT-Creation-Date: 2020-05-13 12:03+EDT\n"
+"PO-Revision-Date: 2016-12-18 20:55+0100\n"
+"Last-Translator: Christoph Heitkamp <info@chrisheitkamp.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/diff/diffpanel.py:46 src/diff/diffpanel.py:128
+msgid "Diff/Merge"
+msgstr "Vergleichen/Zusammenführen"
+
+#: src/diff/diffpanel.py:52
+msgid "Difference and Merge"
+msgstr "Vergleichen und Zusammenführen"
+
+#: src/diff/diffpanel.py:107 src/diff/manager.py:816
+msgid "Wrapped to diff number %i"
+msgstr "Umgebrochen zur Differenz %i"
+
+#: src/diff/diffpanel.py:109 src/diff/manager.py:818
+msgid "Displaying diff number %i"
+msgstr "Zeige Differenz %i"
+
+#: src/diff/diffpanel.py:151 src/diff/diffpanel.py:161
+msgid "Diff/merge panel state"
+msgstr "Vergleichen/Zusammenführen Panel Status"
+
+#: src/diff/diffutils.py:299
+msgid "%s Lines"
+msgstr "%s Zeilen"
+
+#: src/diff/diffutils.py:301
+msgid "Changed"
+msgstr "Geändert"
+
+#: src/diff/manager.py:257
+msgid "Compare Failed"
+msgstr "Vergleichen fehlgeschlagen"
+
+#: src/diff/manager.py:258
+msgid ""
+"Compare to repository failed:  You must save changes or revert to disk "
+"before comparing to the repository."
+msgstr ""
+"Vergleich mit dem Projektarchiv fehlgeschlagen:  Sie müssen vor dem "
+"Vergleich mit dem Projektarchiv Ihre Änderungen speichern oder zur "
+"gespeicherten Version zurückkehren."
+
+#: src/diff/manager.py:261
+#, fuzzy
+msgid "_OK"
+msgstr "OK"
+
+#: src/diff/manager.py:393
+msgid "No Differences Found"
+msgstr "Keine Unterschiede gefunden"
+
+#: src/diff/manager.py:394
+msgid ""
+"One or more diff/merge sessions are now empty because white space "
+"differences are being ignored."
+msgstr ""
+"Eine oder mehrere Vergleichen/Zusammenführen-Sitzungen sind jetzt leer, da "
+"Unterschiede in Leerzeichen ignoriert werden."
+
+#: src/diff/manager.py:399 src/diff/manager.py:621
+#, fuzzy
+msgid "_Show White Space"
+msgstr "Leerzeichen anzeigen"
+
+#: src/diff/manager.py:400 src/diff/manager.py:622
+#, fuzzy
+msgid "_Continue"
+msgstr "Fortsetzen"
+
+#: src/diff/manager.py:404
+#, fuzzy
+msgid "_Don't show this message again"
+msgstr "Diese Nachricht nicht wieder anzeigen"
+
+#: src/diff/manager.py:468
+msgid "Failed to set up the diff session"
+msgstr "Einrichten der Vergleichen-Sitzung ist fehlgeschlagen"
+
+#: src/diff/manager.py:471
+msgid "Diff Failed::Diff failed: %s"
+msgstr "Diff"
+
+#: src/diff/manager.py:481
+msgid "Compare to Repositor_y"
+msgstr "Mit _Projektarchiv vergleichen"
+
+#: src/diff/manager.py:496
+msgid "Compare to Directory..."
+msgstr "Mit Verzeichnis vergleichen..."
+
+#: src/diff/manager.py:499
+msgid "Compare to File..."
+msgstr "Mit Datei vergleichen..."
+
+#: src/diff/manager.py:604 src/diff/manager.py:1824 src/diff/manager.py:1883
+msgid "There are no differences"
+msgstr "Keine Unterschiede gefunden"
+
+#: src/diff/manager.py:611
+msgid "Session Contains Only White Space Changes"
+msgstr "Sitzung enthält nur Änderungen bei Leerzeichen"
+
+#: src/diff/manager.py:612
+msgid ""
+"This diff/merge session contains only white space changes but white space is "
+"being ignored."
+msgstr ""
+"Diese Vergleichen/Zusammenführen-Sitzung enthält nur Änderungen bei "
+"Leerzeichen, da aber ignoriert werden."
+
+#: src/diff/manager.py:623
+#, fuzzy
+msgid "Ca_ncel"
+msgstr "Abbrechen"
+
+#: src/diff/manager.py:627
+msgid "Don't show this message again"
+msgstr "Diese Nachricht nicht wieder anzeigen"
+
+#: src/diff/manager.py:1051
+msgid "Create Directories?"
+msgstr "Verzeichnisse erstellen?"
+
+#: src/diff/manager.py:1052
+msgid ""
+"The enclosing directories for this file do not exist but must be created "
+"before performing this merge.  Should Wing create the following directories "
+"or cancel the merge operation?"
+msgstr ""
+"Die übergeordneten Verzeichnisse dieser Datei sind nicht vorhanden und "
+"müssen vor dem Zusammenführen erstellt werden.  Soll Wing die folgenden "
+"Verzeichnisse erstellen oder soll die Zusammenführen-Operation abgebrochen "
+"werden?"
+
+#: src/diff/manager.py:1061
+#, fuzzy
+msgid "_Create"
+msgstr "Erstellen"
+
+#: src/diff/manager.py:1062
+#, fuzzy
+msgid "Ca_ncel Merge"
+msgstr "Zusammenführen abbrechen"
+
+#: src/diff/manager.py:1370
+msgid "Line %s: Changed %s Lines%s"
+msgstr "Zeile %s: Geändert %s Zeilen%s"
+
+#: src/diff/manager.py:1372
+msgid "Line %s: Deleted %s Lines%s"
+msgstr "Zeile %s: Gelöscht %s Zeilen%s"
+
+#: src/diff/manager.py:1374
+msgid "Line %s: Inserted %s Lines%s"
+msgstr "Zeile %s: Eingefügt %s Zeilen%s"
+
+#: src/diff/manager.py:1384
+msgid "Terminate Diff/Merge Session"
+msgstr "Vergleichen/Zusammenführen-Sitzung abbrechen"
+
+#: src/diff/manager.py:1389
+msgid "Lock Scrolling"
+msgstr "Scrollen sperren"
+
+#: src/diff/manager.py:1394
+msgid "Ignore Whitespace"
+msgstr "Leerzeichen ignorieren"
+
+#: src/diff/manager.py:1503 src/diff/manager.py:1547
+msgid "Could not open one or both editors"
+msgstr "Einer oder beide Editoren konnten nicht geöffnet werden"
+
+#: src/diff/manager.py:1587
+msgid "Revision"
+msgstr "Revision"
+
+#: src/diff/manager.py:1634 src/diff/manager.py:1638 src/diff/manager.py:2177
+msgid "%s does not exist"
+msgstr "%s ist nicht vorhanden"
+
+#: src/diff/manager.py:1636 src/diff/manager.py:1640 src/diff/manager.py:2179
+msgid "%s is not a directory"
+msgstr "%s ist kein Verzeichnis"
+
+#: src/diff/manager.py:1910 src/diff/manager.py:1913 src/diff/manager.py:2197
+msgid "%s is not a file"
+msgstr "%s ist keine Datei"
+
+#: src/diff/manager.py:2045
+msgid "Changes"
+msgstr "Änderungen"
+
+#: src/diff/manager.py:2045
+msgid "Filename"
+msgstr "Dateiname"
+
+#: src/diff/manager.py:2162 src/diff/manager.py:2433
+msgid "Could not find version control system for %s"
+msgstr "Versionsverwaltungssystem für %s konnte nicht gefunden werden"
+
+#: src/diff/manager.py:2164
+msgid "Version control system determination still pending for %s"
+msgstr "Ermittlung des Versionsverwaltungssystems für %s steht noch aus"
+
+#: src/diff/manager.py:2255
+msgid "Could not obtain revision information from %s"
+msgstr "Revisions-Informationen für %s konnten nicht bezogen werden"
+
+#: src/diff/manager.py:2276
+msgid "No Differences::There are no differences in directory %s"
+msgstr "Keine Unterschiede::Es gibt keine Unterschiede in Verzeichnis %"
+
+#: src/diff/manager.py:2291
+msgid ""
+"Remote Inspect Failed::Could not inspect remote files to compute differences"
+msgstr ""
+
+#: src/diff/manager.py:2322
+msgid "Disk File: %s"
+msgstr "Festplatten-Datei: %s"
+
+#: src/diff/manager.py:2435
+msgid "Version control system determination still in progress for %s"
+msgstr "Ermittlung des Versionsverwaltungssystems für %s ist noch in Arbeit"
+
+#: src/diff/manager.py:2444
+msgid "Fetching revision..."
+msgstr "Hole Revision..."
+
+#: src/diff/manager.py:2468
+msgid "Failed to inspect %s"
+msgstr "Untersuchen von %s fehlgeschlagen"
+
+#: src/diff/manager.py:2496
+msgid ""
+"Encoding Error::The encoding of the differences received from the version "
+"control system does not seem to match the file's encoding (%s).  "
+"Unidentifiable characters have been replaced with '?'"
+msgstr ""
+
+#: src/diff/manager.py:2553
+msgid "No differences::There are no differences in %s"
+msgstr "Keine Unterschiede::Es gibt keine Unterschiede in %"
+
+#: src/diff/manager.py:2570
+msgid "%s rev %s -- %s"
+msgstr ""
+
+#: src/diff/prefs.py:20
+msgid "Side by Side"
+msgstr "Seite an Seite"
+
+#: src/diff/prefs.py:21
+msgid "Top and Bottom"
+msgstr "Oben und unten"
+
+#: src/diff/prefs.py:25
+msgid "Orientation of difference/merge views: Side-by-side or top/bottom"
+msgstr ""
+"Ausrichtung der Vergleichen/Zusammenführen-Ansichten: Seite-an-Seite oder "
+"Oben/Unten"
+
+#: src/diff/prefs.py:31
+msgid ""
+"Controls whether scrolling of the diff/merge editors is locked to "
+"synchronize the editor scroll positions."
+msgstr ""
+"Steuert ob das Scrollen der Vergleichen/Zusammenführen-Editoren "
+"untereinander synchronisiert wird."
+
+#: src/diff/prefs.py:37
+msgid ""
+"Controls whether differences will ignore changes that alter white space only."
+msgstr ""
+"Steuert ob Vergleiche Änderungen ignorieren, die nur Leerzeichen betreffen."
+
+#: src/diff/prefs.py:42
+msgid ""
+"Controls whether to warn when changing white space filtering causes sessions "
+"to become empty of changes."
+msgstr ""
+
+#~ msgid "Dummy"
+#~ msgstr "Dummy"

@@ -1,0 +1,143 @@
+# Module src_command translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2012-01-04 19:13-0600\n"
+"Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/command/argentry.py:152
+msgid "Cannot execute %s: incorrect value for %s"
+msgstr ""
+
+#: src/command/commandmgr.py:154
+msgid "%sarginfo[%s].doc not valid.  Using None."
+msgstr ""
+
+#: src/command/commandmgr.py:161
+msgid "%sarginfo[%s].type not valid.  Treating arg as small string."
+msgstr ""
+
+#: src/command/commandmgr.py:168
+msgid "%sarginfo[%s].formlet not valid.  Treating arg as small string."
+msgstr ""
+
+#: src/command/commandmgr.py:201
+msgid "Callable %s.arginfo[%s].%s failed.  Using default."
+msgstr ""
+
+#: src/command/commandmgr.py:458
+msgid "Command name is not a string"
+msgstr ""
+
+#: src/command/commandmgr.py:461
+msgid "Command doc is not a None, string, or callable"
+msgstr ""
+
+#: src/command/commandmgr.py:465
+msgid "Command label is not a string or callable"
+msgstr ""
+
+#: src/command/commandmgr.py:541
+msgid "%sarginfo not dict or callable.  Using short string args."
+msgstr ""
+
+#: src/command/commandmgr.py:553
+msgid "%sarginfo[%s]: %s not an arg name."
+msgstr ""
+
+#: src/command/commandmgr.py:562
+msgid "%sarginfo[%s] not CArgInfo or callable"
+msgstr ""
+
+#: src/command/commandmgr.py:571
+msgid "%sarginfo[%s]: exception inspecting value"
+msgstr ""
+
+#: src/command/commandmgr.py:583
+msgid "%sarginfo for %s not found.  Using short string."
+msgstr ""
+
+#: src/command/commandmgr.py:817
+msgid "Error executing %s.available()"
+msgstr ""
+
+#: src/command/commandmgr.py:843 src/command/commandmgr.py:858
+msgid "Tried to execute unavailable command %s"
+msgstr ""
+
+#: src/command/commandmgr.py:875
+msgid "Error obtaining args for script %s"
+msgstr ""
+
+#: src/command/commandmgr.py:878
+msgid "Error obtaining args for command %s"
+msgstr ""
+
+#: src/command/commandmgr.py:915
+msgid "Error executing script %s"
+msgstr ""
+
+#: src/command/commandmgr.py:918
+msgid "Error executing command %s"
+msgstr ""
+
+#: src/command/commandmgr.py:991
+msgid "Callable %s.arginfo raised an exception"
+msgstr ""
+
+#: src/command/commandmgr.py:998
+msgid ""
+"Callable %s.arginfo returned invalid arginfo; treating args as short string"
+msgstr ""
+
+#: src/command/commandmgr.py:1017
+msgid "Default "
+msgstr "Predeterminado"
+
+#: src/command/commandmgr.py:1020
+msgid "%s: Callable default arginfo failed"
+msgstr ""
+
+#: src/command/commandmgr.py:1038
+msgid "Callable %s.arginfo[%s] failed; treating arg as short string"
+msgstr ""
+
+#: src/command/commandmgr.py:1068
+msgid "Callable %s.label failed; using label derived from command name"
+msgstr ""
+
+#: src/command/commandmgr.py:1073
+msgid ""
+"Callable %s.label returned non-string; using label derived from command name"
+msgstr ""
+
+#: src/command/commandmgr.py:1103
+msgid "Callable %s.doc failed; using ''"
+msgstr ""
+
+#: src/command/commandmgr.py:1108
+msgid "Callable %s.doc returned non-string; using ''"
+msgstr ""
+
+#: src/command/commandmgr.py:1135
+msgid "Callable %s.flags returned non-dict; using {}"
+msgstr ""
+
+#: src/command/commandmgr.py:1478
+msgid "* Error(s) loading %s.%s.%s:"
+msgstr ""
+
+#: src/command/commandmgr.py:1487
+msgid "Exception while loading %s.%s.%s"
+msgstr ""

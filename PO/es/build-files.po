@@ -1,0 +1,67 @@
+# Module build-files translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2012-01-04 16:17-0600\n"
+"Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: build-files/releasebuild.py:1734
+#, fuzzy
+msgid "Introduction to Wing %s"
+msgstr "Introducción a Wing"
+
+#: build-files/releasebuild.py:1735
+#, fuzzy
+msgid "Wing %s Reference Manual"
+msgstr "Manual de referencia de Wing"
+
+#: build-files/releasebuild.py:1736
+#, fuzzy
+msgid "Wing %s How-Tos"
+msgstr "Guías de Wing (How-Tos)"
+
+#: build-files/releasebuild.py:1737
+msgid "Wing %s Quick Start Guide"
+msgstr ""
+
+#: build-files/releasebuild.py:1786
+msgid "Table of Contents"
+msgstr "Tabla de Contenidos"
+
+#: build-files/releasebuild.py:2376
+msgid "Wing Pro - Non-Commercial Use"
+msgstr ""
+
+#: build-files/releasebuild.py:2377
+msgid "Wing Pro - Commercial Use"
+msgstr ""
+
+#: build-files/releasebuild.py:2378
+msgid "Wing Pro - 30-Day Trial"
+msgstr ""
+
+#~ msgid "Wing Tips"
+#~ msgstr "Consejos de Wing"
+
+#~ msgid "101"
+#~ msgstr "101"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid "Professional"
+#~ msgstr "Profesional"
+
+#~ msgid "Enterprise"
+#~ msgstr "Empresarial"

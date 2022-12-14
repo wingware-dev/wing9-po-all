@@ -1,0 +1,441 @@
+# Module src_wingutils translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/wingutils/datatype.py:156
+msgid "Value should be None"
+msgstr ""
+
+#: src/wingutils/datatype.py:174
+msgid "Boolean value must be 0 or 1"
+msgstr ""
+
+#: src/wingutils/datatype.py:179
+msgid "<boolean: 0 or 1>"
+msgstr ""
+
+#: src/wingutils/datatype.py:199
+msgid "Value has type %s, should be one of:\n"
+msgstr ""
+
+#: src/wingutils/datatype.py:230
+msgid "Value is type %s, should be "
+msgstr ""
+
+#: src/wingutils/datatype.py:238
+msgid "[one of: "
+msgstr ""
+
+#: src/wingutils/datatype.py:276
+msgid "Value out of range, should be one of:\n"
+msgstr ""
+
+#: src/wingutils/datatype.py:313
+msgid "Value is type %s, should be %s"
+msgstr ""
+
+#: src/wingutils/datatype.py:316
+msgid "Value out of valid range %s -> %s"
+msgstr ""
+
+#: src/wingutils/datatype.py:319
+msgid "[from %s to %s]"
+msgstr ""
+
+#: src/wingutils/datatype.py:338 src/wingutils/datatype.py:394
+msgid "Value is type %s, should be tuple"
+msgstr ""
+
+#: src/wingutils/datatype.py:343
+msgid ""
+"Bad tuple item %i:\n"
+"%s"
+msgstr ""
+
+#: src/wingutils/datatype.py:348
+msgid "[tuple of: "
+msgstr ""
+
+#: src/wingutils/datatype.py:367
+msgid "Value is type %s, should be set"
+msgstr ""
+
+#: src/wingutils/datatype.py:371
+msgid "Bad set item %s (should be %s)"
+msgstr ""
+
+#: src/wingutils/datatype.py:376
+msgid "[set of: "
+msgstr ""
+
+#: src/wingutils/datatype.py:396
+msgid "Value has length %i, should be %i"
+msgstr ""
+
+#: src/wingutils/datatype.py:400
+msgid ""
+"Bad tuple slot %i:\n"
+"%s"
+msgstr ""
+
+#: src/wingutils/datatype.py:409
+msgid "[tuple length %i of: %s]"
+msgstr ""
+
+#: src/wingutils/datatype.py:433
+msgid "Value is type %s, should be list"
+msgstr ""
+
+#: src/wingutils/datatype.py:437
+msgid ""
+"Bad list item %s:\n"
+"%s"
+msgstr ""
+
+#: src/wingutils/datatype.py:441
+msgid "[list of: "
+msgstr ""
+
+#: src/wingutils/datatype.py:466
+msgid "Value is %s, should be dict"
+msgstr ""
+
+#: src/wingutils/datatype.py:470 src/wingutils/datatype.py:585
+msgid ""
+"Bad dictionary key %s:\n"
+"%s"
+msgstr ""
+
+#: src/wingutils/datatype.py:473 src/wingutils/datatype.py:588
+msgid ""
+"Bad dictionary value %s:\n"
+"%s"
+msgstr ""
+
+#: src/wingutils/datatype.py:477
+msgid ", values: "
+msgstr ""
+
+#: src/wingutils/datatype.py:477
+msgid "[dict; keys: "
+msgstr ""
+
+#: src/wingutils/datatype.py:497
+msgid "[None or "
+msgstr ""
+
+#: src/wingutils/datatype.py:512
+msgid "[any value]"
+msgstr ""
+
+#: src/wingutils/datatype.py:528
+msgid "Value is a %s, should be a CResourceLocation"
+msgstr ""
+
+#: src/wingutils/datatype.py:531
+msgid "[Any resource location]"
+msgstr ""
+
+#: src/wingutils/datatype.py:548
+msgid "Value is a %s, should be a list of strings"
+msgstr ""
+
+#: src/wingutils/datatype.py:551
+msgid "Value contains non-string item in position %i"
+msgstr ""
+
+#: src/wingutils/datatype.py:555
+msgid "[list of str]"
+msgstr ""
+
+#: src/wingutils/datatype.py:581
+msgid "Value is %s, should be CFileFilters"
+msgstr ""
+
+#: src/wingutils/datatype.py:592
+msgid "[file filters]"
+msgstr ""
+
+#: src/wingutils/datatype.py:607
+msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
+msgstr ""
+
+#: src/wingutils/datatype.py:611
+msgid "Value should be a #.#.#.# IP4 address"
+msgstr ""
+
+#: src/wingutils/datatype.py:617
+msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
+msgstr ""
+
+#: src/wingutils/datatype.py:638
+msgid "Icon should be IconReference but has type %s"
+msgstr ""
+
+#: src/wingutils/datatype.py:643
+msgid "Icon file does not exist"
+msgstr ""
+
+#: src/wingutils/datatype.py:645
+msgid "Icon file is a directory"
+msgstr ""
+
+#: src/wingutils/datatype.py:649
+msgid "Icon spec has type %s, should be string, unicode, or location"
+msgstr ""
+
+#: src/wingutils/datatype.py:652
+msgid ""
+"Icon spec string must start with wingide- for Wing icon or SP_ for Qt stock "
+"icon"
+msgstr ""
+
+#: src/wingutils/datatype.py:708
+msgid "Value is not a CResourceLocation: %s"
+msgstr ""
+
+#: src/wingutils/datatype.py:728
+msgid "Cannot convert text into a CResourceLocation: %s"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:65
+msgid "English"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:66
+msgid "US, Canada, and Others"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:67 src/wingutils/encoding_utils.py:75
+#: src/wingutils/encoding_utils.py:79 src/wingutils/encoding_utils.py:94
+#: src/wingutils/encoding_utils.py:105
+msgid "Hebrew"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:68
+msgid "US, Australia, New Zealand, S. Africa"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:69 src/wingutils/encoding_utils.py:72
+#: src/wingutils/encoding_utils.py:88 src/wingutils/encoding_utils.py:91
+#: src/wingutils/encoding_utils.py:98 src/wingutils/encoding_utils.py:110
+#: src/wingutils/encoding_utils.py:117
+msgid "Western European"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:70 src/wingutils/encoding_utils.py:83
+#: src/wingutils/encoding_utils.py:85 src/wingutils/encoding_utils.py:92
+#: src/wingutils/encoding_utils.py:104 src/wingutils/encoding_utils.py:114
+msgid "Greek"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:71 src/wingutils/encoding_utils.py:96
+#: src/wingutils/encoding_utils.py:101 src/wingutils/encoding_utils.py:108
+msgid "Baltic Languages"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:73 src/wingutils/encoding_utils.py:89
+#: src/wingutils/encoding_utils.py:99 src/wingutils/encoding_utils.py:116
+msgid "Central and Eastern European"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:74 src/wingutils/encoding_utils.py:90
+#: src/wingutils/encoding_utils.py:102 src/wingutils/encoding_utils.py:113
+msgid "Cyrillic Languages"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:76 src/wingutils/encoding_utils.py:87
+#: src/wingutils/encoding_utils.py:93 src/wingutils/encoding_utils.py:106
+#: src/wingutils/encoding_utils.py:118
+msgid "Turkish"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:77
+msgid "Portuguese"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:78
+msgid "Icelandic"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:80
+msgid "Canadian English/French"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:81 src/wingutils/encoding_utils.py:95
+#: src/wingutils/encoding_utils.py:103
+msgid "Arabic"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:82
+msgid "Danish, Norwegian"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:84
+msgid "Thai"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:86
+msgid "Urdu"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:97
+msgid "Vietnamese"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:100
+msgid "Esperanto and Maltese"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:107
+msgid "Nordic Languages"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:109
+msgid "Celtic Languages"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:111
+msgid "Russian"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:112
+msgid "Ukrainian"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:119
+msgid "Unicode (UTF-16)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:120
+msgid "Unicode (UTF-16, big endian)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:121
+msgid "Unicode (UTF-16, little endian)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:122
+msgid "Unicode (UTF-7)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:123
+msgid "Unicode (UTF-8)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:126 src/wingutils/encoding_utils.py:127
+#: src/wingutils/encoding_utils.py:128 src/wingutils/encoding_utils.py:129
+#: src/wingutils/encoding_utils.py:130
+msgid "Chinese (PRC)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:131 src/wingutils/encoding_utils.py:132
+msgid "Chinese (ROC)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:133 src/wingutils/encoding_utils.py:134
+#: src/wingutils/encoding_utils.py:135 src/wingutils/encoding_utils.py:136
+#: src/wingutils/encoding_utils.py:137 src/wingutils/encoding_utils.py:138
+#: src/wingutils/encoding_utils.py:139 src/wingutils/encoding_utils.py:140
+#: src/wingutils/encoding_utils.py:141 src/wingutils/encoding_utils.py:142
+#: src/wingutils/encoding_utils.py:143 src/wingutils/encoding_utils.py:144
+#: src/wingutils/encoding_utils.py:145
+msgid "Japanese"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:146 src/wingutils/encoding_utils.py:147
+#: src/wingutils/encoding_utils.py:148
+msgid "Korean"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:151
+msgid "Current code page (ansi/mbcs)"
+msgstr ""
+
+#: src/wingutils/encoding_utils.py:190
+msgid "Also known as: "
+msgstr ""
+
+#: src/wingutils/fileattribmgr.py:37
+msgid ""
+"The mime type set for a file, when the user has overridden the default value "
+"for the file type."
+msgstr ""
+
+#: src/wingutils/fileattribmgr.py:47
+msgid ""
+"The encoding to use for this file, overriding the file system and default "
+"encoding.  The encoding cannot be changed if there is an encoding comment "
+"present in the file; in that case this attribute is ignored and the encoding "
+"comment should be changed instead."
+msgstr ""
+
+#: src/wingutils/savable.py:866
+msgid "Unknown"
+msgstr ""
+
+#: src/wingutils/textio.py:262 src/wingutils/textio.py:265
+msgid "Invalid line %d"
+msgstr ""
+
+#: src/wingutils/textio.py:269
+msgid "Invalid name on line %d"
+msgstr ""
+
+#: src/wingutils/textio.py:285
+msgid "Invalid value on line %d"
+msgstr ""
+
+#: src/wingutils/textio.py:1021
+msgid "Unknown value name %s"
+msgstr ""
+
+#: src/wingutils/textio.py:1544
+msgid "Error in %s, line %d"
+msgstr ""
+
+#: src/wingutils/textio.py:1547
+msgid "Internal data error:"
+msgstr ""
+
+#: src/wingutils/textio.py:1549
+msgid "  Bad value is:"
+msgstr ""
+
+#: src/wingutils/usererror.py:125
+msgid "Error::"
+msgstr ""
+
+#: src/wingutils/usererror.py:128
+msgid "Fatal Error::"
+msgstr ""
+
+#: src/wingutils/usererror.py:173
+msgid "NOTE"
+msgstr ""
+
+#: src/wingutils/usererror.py:175
+msgid "WARNING"
+msgstr ""
+
+#: src/wingutils/usererror.py:177
+msgid "ERROR"
+msgstr ""
+
+#: src/wingutils/usererror.py:179
+msgid "FATAL"
+msgstr ""

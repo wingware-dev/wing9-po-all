@@ -1,0 +1,224 @@
+# Module src_pysource translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2012-01-04 16:09-0600\n"
+"Last-Translator: Noe Nieto <nnieto@noenieto.com>\n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/pysource/attribs.py:25
+msgid "Analyze main file for sys.path changes"
+msgstr ""
+
+#: src/pysource/llinecache.py:80
+msgid "Inconsistent indentation (not in units of indent size)"
+msgstr ""
+
+#: src/pysource/llinecache.py:82
+msgid "This code will never be reached"
+msgstr ""
+
+#: src/pysource/llinecache.py:84
+msgid "Expected indentation to decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:86
+msgid "Expected indentation to increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:88
+msgid "Unexpected indentation decrease"
+msgstr ""
+
+#: src/pysource/llinecache.py:90
+msgid "Unexpected indentation increase"
+msgstr ""
+
+#: src/pysource/llinecache.py:92
+msgid "Bad indentation level"
+msgstr ""
+
+#: src/pysource/llinecache.py:94
+msgid "Indentation error (unspecified)"
+msgstr ""
+
+#: src/pysource/manager.py:301
+msgid "(Analyzing Files: P{} S{} Q={}) "
+msgstr ""
+
+#: src/pysource/manager.py:305
+msgid "(Analyzing Files: {} pending remote inspections) "
+msgstr ""
+
+#: src/pysource/manager.py:1046
+msgid ""
+"Scrape errors for %s:\n"
+"%s"
+msgstr ""
+
+#: src/pysource/manager.py:1074
+msgid "%s does not exist (scrape failed)"
+msgstr ""
+
+#: src/pysource/manager.py:1078
+msgid "%s is empty (scrape failed; removing file now)"
+msgstr ""
+
+#: src/pysource/manager.py:1096
+msgid "Scraping %s"
+msgstr ""
+
+#: src/pysource/manager.py:1106
+msgid "Failed to scrape extension module %s: Python not found"
+msgstr ""
+
+#: src/pysource/manager.py:1125
+msgid "Failed to scrape extension module %s: Container failed to start"
+msgstr ""
+
+#: src/pysource/manager.py:1142
+msgid "Failed to scrape extension module %s: Cannot create directory %s"
+msgstr ""
+
+#: src/pysource/manager.py:1165
+msgid "Timed out in remote scrape of extension module %s"
+msgstr ""
+
+#: src/pysource/manager.py:1167 src/pysource/manager.py:1225
+msgid ""
+"Failed to start process to scrape extension module %s: could not find "
+"suitable rundir"
+msgstr ""
+
+#: src/pysource/manager.py:1170 src/pysource/manager.py:1283
+msgid "Failed to start process to scrape extension module %s"
+msgstr ""
+
+#: src/pysource/manager.py:1172 src/pysource/manager.py:1288
+msgid "Failed scraping API for %s"
+msgstr ""
+
+#: src/pysource/manager.py:1174 src/pysource/manager.py:1290
+msgid "API scraping process for %s completed"
+msgstr ""
+
+#: src/pysource/manager.py:1197
+msgid "Failed to start server to scrape extension module %s"
+msgstr ""
+
+#: src/pysource/manager.py:1265
+msgid ""
+"Failed to start process to scrape extension module %s: cannot encode "
+"arguments"
+msgstr ""
+
+#: src/pysource/manager.py:1272
+msgid "Cache file is %s"
+msgstr ""
+
+#: src/pysource/manager.py:4243
+msgid "instance"
+msgstr ""
+
+#: src/pysource/manager.py:4244
+msgid "class"
+msgstr ""
+
+#: src/pysource/manager.py:4245
+msgid "module"
+msgstr ""
+
+#: src/pysource/prefs.py:30
+msgid ""
+"Path to search for interface files for extension modules.  If directory name "
+"is relative, it will be interpreted as relative to the  user settings "
+"directory (%s)"
+msgstr ""
+
+#: src/pysource/prefs.py:39
+msgid "Whether Wing should try to analyze python source in the background."
+msgstr ""
+
+#: src/pysource/prefs.py:48
+msgid "The maximum size of the disk cache in megabytes"
+msgstr ""
+
+#: src/pysource/prefs.py:49
+msgid "Clear cache"
+msgstr "Limpiar caché"
+
+#: src/pysource/prefs.py:50
+msgid "Clear cache files and re-analyse all source code"
+msgstr ""
+
+#: src/pysource/prefs.py:54
+msgid ""
+"The maximum # of analysis info buffers that can be in-memory at once for "
+"files that are not open."
+msgstr ""
+
+#: src/pysource/prefs.py:64
+msgid ""
+"Enable to automatically load and introspect extension modules and other "
+"modules that cannot be statically analysed.  These modules are loaded in "
+"another process space and 'scraped' to obtain at least some analysis of the "
+"module's contents."
+msgstr ""
+
+#: src/pysource/prefs.py:95
+msgid ""
+"This is a dictionary from module name to Python code that should be executed "
+"before attempting to load extension modules for scraping.  This is needed in "
+"cases where the extension modules are designed to be loaded only after some "
+"configuration magic is performed.  For most extension modules, no extra "
+"configuration should be needed."
+msgstr ""
+
+#: src/pysource/prefs.py:131
+msgid "Configuration Code"
+msgstr ""
+
+#: src/pysource/prefs.py:131
+msgid "Module Name"
+msgstr "Nombre de Módulo"
+
+#: src/pysource/prefs.py:136
+msgid ""
+"Use slower, dotfile locking for sqllite databases to work around buggy "
+"remote file servers.  Only needed if the user cache directory is on a remote "
+"file system or can be accessed via a remote file system.  It is recommended "
+"that the user cache directory be on the local file system for performance "
+"reasons."
+msgstr ""
+
+#: src/pysource/prefs.py:145
+msgid ""
+"Prefix for Python Standard Library Documentation.  This should be in the "
+"form https://docs.python.org/library/ and Wing will append module and symbol "
+"specific to the given URL.  To use locally stored documentation, you must "
+"run a local web server since # bookmarks do not work in file: URLs."
+msgstr ""
+
+#: src/pysource/prefs.py:152
+msgid "Use docs.python.org"
+msgstr ""
+
+#: src/pysource/prefs.py:153
+msgid "Other:"
+msgstr ""
+
+#: src/pysource/prefs.py:167
+msgid ""
+"Whether to use a helper process to analyze disk files. (Currently "
+"experimental)"
+msgstr ""

@@ -1,0 +1,49 @@
+# Module build-files translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:51-0500\n"
+"PO-Revision-Date: 2003-07-10 12:22GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: build-files/releasebuild.py:1734
+msgid "Introduction to Wing %s"
+msgstr ""
+
+#: build-files/releasebuild.py:1735
+msgid "Wing %s Reference Manual"
+msgstr ""
+
+#: build-files/releasebuild.py:1736
+msgid "Wing %s How-Tos"
+msgstr ""
+
+#: build-files/releasebuild.py:1737
+msgid "Wing %s Quick Start Guide"
+msgstr ""
+
+#: build-files/releasebuild.py:1786
+msgid "Table of Contents"
+msgstr ""
+
+#: build-files/releasebuild.py:2376
+msgid "Wing Pro - Non-Commercial Use"
+msgstr ""
+
+#: build-files/releasebuild.py:2377
+msgid "Wing Pro - Commercial Use"
+msgstr ""
+
+#: build-files/releasebuild.py:2378
+msgid "Wing Pro - 30-Day Trial"
+msgstr ""

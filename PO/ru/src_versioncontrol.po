@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_versioncontrol\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2018-03-17 11:00+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44313\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/versioncontrol/attribs.py:27
+msgid "List of recent locations"
+msgstr "Список последних locations"
+
+#: src/versioncontrol/attribs.py:32
+msgid "Whether to display unregistered files in status displays"
+msgstr "Отображать ли незарегистрированные файлы в индикаторах состояния"
+
+#: src/versioncontrol/attribs.py:36
+msgid "Use Preference Settings"
+msgstr "Использовать Настройки Предпочтений"
+
+#: src/versioncontrol/attribs.py:37
+msgid "Disable"
+msgstr "Отключать"
+
+#: src/versioncontrol/attribs.py:38
+msgid "Enable and Configure Here"
+msgstr "Включить и настроить здесь"
+
+#: src/versioncontrol/attribs.py:42
+msgid "Configures VCS systems for this project"
+msgstr "Настройки системы VCS для этого проекта"
+
+#: src/versioncontrol/cap_cvs.py:66 src/versioncontrol/cap_hg.py:51
+#: src/versioncontrol/cap_perforce.py:179 src/versioncontrol/cap_svn.py:67
+msgid "Extra arguments to pass to every command."
+msgstr "Дополнительные аргументы для передачи каждой команде."
+
+#: src/versioncontrol/cap_cvs.py:86 src/versioncontrol/cap_git.py:97
+#: src/versioncontrol/cap_hg.py:91 src/versioncontrol/cap_perforce.py:207
+#: src/versioncontrol/cap_svn.py:90
+msgid "Configure..."
+msgstr "Конфигурировать..."
+
+#: src/versioncontrol/cap_cvs.py:101
+msgid "CVS Update"
+msgstr "Обновление CVS"
+
+#: src/versioncontrol/cap_cvs.py:102
+msgid "CVS"
+msgstr ""
+
+#: src/versioncontrol/cap_cvs.py:113
+msgid "CVS Executable"
+msgstr "CVS Исполняемая команда"
+
+#: src/versioncontrol/cap_cvs.py:114 src/versioncontrol/cap_hg.py:106
+#: src/versioncontrol/cap_perforce.py:448 src/versioncontrol/cap_svn.py:173
+msgid "Extra Global Arguments"
+msgstr "Дополнительные глобальные аргументы"
+
+#: src/versioncontrol/cap_cvs.py:917 src/versioncontrol/cap_svn.py:883
+msgid "Checkout working copy"
+msgstr "Проверить рабочую копию"
+
+#: src/versioncontrol/cap_cvs.py:918 src/versioncontrol/cap_svn.py:884
+msgid "Checkout"
+msgstr "Проверка"
+
+#: src/versioncontrol/cap_cvs.py:919
+msgid "Module"
+msgstr "Модуль"
+
+#: src/versioncontrol/cap_cvs.py:936
+msgid "Missing module"
+msgstr "Отсутствует модуль"
+
+#: src/versioncontrol/cap_cvs.py:936
+msgid "The module name must be specified"
+msgstr "Имя модуля должно быть указано"
+
+#: src/versioncontrol/cap_git.py:67
+msgid "Use --porcelain output for git status"
+msgstr "Использовать --porcelain для вывода статуса git"
+
+#: src/versioncontrol/cap_git.py:79 src/versioncontrol/cap_hg.py:71
+msgid "_Project Status"
+msgstr "Статус проекта"
+
+#: src/versioncontrol/cap_git.py:80
+msgid "C_ommit Project"
+msgstr "Зафиксировать Проект"
+
+#: src/versioncontrol/cap_git.py:82 src/versioncontrol/cap_hg.py:74
+#, fuzzy
+msgid "Create Branch"
+msgstr "Слить Всю Ветку"
+
+#: src/versioncontrol/cap_git.py:83 src/versioncontrol/cap_hg.py:75
+#, fuzzy
+msgid "List All _Branches"
+msgstr "Список ветвей"
+
+#: src/versioncontrol/cap_git.py:84 src/versioncontrol/cap_hg.py:76
+msgid "S_witch Branch"
+msgstr "Переключатель Ветви"
+
+#: src/versioncontrol/cap_git.py:86
+msgid "Pus_h Branch Changes"
+msgstr "Протолкнуть(Push) изменения в ветви"
+
+#: src/versioncontrol/cap_git.py:87
+msgid "P_ull Branch Changes"
+msgstr "Втянуть(Pull) Изменения Ветви"
+
+#: src/versioncontrol/cap_git.py:88
+msgid "_Fetch Repository Changes"
+msgstr "Извлечение изменений в репозитории"
+
+#: src/versioncontrol/cap_git.py:90
+#, fuzzy
+msgid "Push to Stash"
+msgstr "Протолкнуть до"
+
+#: src/versioncontrol/cap_git.py:91
+msgid "Pop from Stash"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:92
+msgid "List Stash"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:94 src/versioncontrol/cap_hg.py:88
+msgid "_Add"
+msgstr "Добавить"
+
+#: src/versioncontrol/cap_git.py:95
+msgid "_Remove"
+msgstr "Удалить"
+
+#: src/versioncontrol/cap_git.py:104
+msgid "Git"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:116 src/versioncontrol/repository.py:267
+msgid "%s Executable"
+msgstr "%s Исполняемый файл"
+
+#: src/versioncontrol/cap_git.py:117
+msgid "Use --porcelain"
+msgstr "Использовать --porcelain"
+
+#: src/versioncontrol/cap_git.py:876
+msgid "Failed to run git command"
+msgstr "Не удалось выполнить команду git "
+
+#: src/versioncontrol/cap_git.py:877
+msgid "Could not find git working directory"
+msgstr "Не могу найти рабочий каталог git "
+
+#: src/versioncontrol/cap_git.py:1026
+msgid "Pull from repository"
+msgstr "Вытянуть(Pull) из репозитория"
+
+#: src/versioncontrol/cap_git.py:1027
+msgid "Pull from"
+msgstr "Вытянуть(Pull) из"
+
+#: src/versioncontrol/cap_git.py:1028
+msgid "_Pull"
+msgstr "Вытянуть"
+
+#: src/versioncontrol/cap_git.py:1039 src/versioncontrol/cap_git.py:1085
+#: src/versioncontrol/widgets.py:2185 src/versioncontrol/widgets.py:2229
+msgid "(current)"
+msgstr ""
+
+#: src/versioncontrol/cap_git.py:1042 src/versioncontrol/cap_git.py:1088
+#: src/versioncontrol/widgets.py:2189 src/versioncontrol/widgets.py:2233
+msgid "Branch name"
+msgstr "Имя Ветки"
+
+#: src/versioncontrol/cap_git.py:1072
+msgid "Push branch to repository"
+msgstr "Отправить ветку в репозиторий"
+
+#: src/versioncontrol/cap_git.py:1073 src/versioncontrol/cap_hg.py:671
+msgid "Push to"
+msgstr "Протолкнуть до"
+
+#: src/versioncontrol/cap_git.py:1074 src/versioncontrol/cap_hg.py:672
+msgid "_Push"
+msgstr "Протолкнуть"
+
+#: src/versioncontrol/cap_git.py:1119
+msgid "Fetch changes from repository"
+msgstr "Извлечение изменений из репозитория"
+
+#: src/versioncontrol/cap_git.py:1120
+msgid "Fetch from"
+msgstr "Извлечь из"
+
+#: src/versioncontrol/cap_git.py:1121
+msgid "_Fetch"
+msgstr "Извлечь"
+
+#: src/versioncontrol/cap_hg.py:38 src/versioncontrol/cap_hg.py:39
+msgid "Mercurial"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:57 src/versioncontrol/cap_perforce.py:185
+msgid ""
+"Don't find unregistered files when scanning for file status. This can "
+"substantially reduce the time to scan large repositories."
+msgstr ""
+"Не просматривать незарегистрированные файлы при проверке состояния файла. "
+"Это может существенно сократить время сканирования больших хранилищ."
+
+#: src/versioncontrol/cap_hg.py:69
+msgid "_Annotate"
+msgstr "Пометить"
+
+#: src/versioncontrol/cap_hg.py:72
+msgid "_Commit Project"
+msgstr "Пофиксить проект"
+
+#: src/versioncontrol/cap_hg.py:77
+#, fuzzy
+msgid "_Merge From Branch"
+msgstr "Слить Всю Ветку"
+
+#: src/versioncontrol/cap_hg.py:79
+msgid "P_ull Changes"
+msgstr "Вытянуть(Pull) Изменения"
+
+#: src/versioncontrol/cap_hg.py:80
+msgid "Up_date"
+msgstr "Обновить"
+
+#: src/versioncontrol/cap_hg.py:81
+msgid "Pu_sh Changes"
+msgstr "Протолкнуть(Push) Изменения"
+
+#: src/versioncontrol/cap_hg.py:83
+msgid "Rebase"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:84
+msgid "Shelve"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:85
+msgid "Unshelve"
+msgstr ""
+
+#: src/versioncontrol/cap_hg.py:86
+#, fuzzy
+msgid "List Shelves"
+msgstr "Список ветвей"
+
+#: src/versioncontrol/cap_hg.py:89
+msgid "Remo_ve"
+msgstr "Удалить(Сбросить)"
+
+#: src/versioncontrol/cap_hg.py:107 src/versioncontrol/cap_perforce.py:449
+msgid "Don't Find Unregistered Files"
+msgstr "Не искать незарегистрированные файлы"
+
+#: src/versioncontrol/cap_hg.py:647
+msgid "Pull All Changes"
+msgstr "Втянуть(Pull) Все Изменения"
+
+#: src/versioncontrol/cap_hg.py:648
+msgid "Pull From"
+msgstr "Втянуть(Pull) из"
+
+#: src/versioncontrol/cap_hg.py:649
+msgid "Pull"
+msgstr "Втянуть(Pull)"
+
+#: src/versioncontrol/cap_hg.py:654
+msgid "Update"
+msgstr "Обновить"
+
+#: src/versioncontrol/cap_hg.py:670
+msgid "Push all changes"
+msgstr "Протолкнуть(Push ) все изменения"
+
+#: src/versioncontrol/cap_hg.py:731 src/versioncontrol/cap_hg.py:744
+msgid "Cannot find single hg working directory root"
+msgstr "Не удается найти корневой рабочий каталог hg"
+
+#: src/versioncontrol/cap_hg.py:817
+msgid "Current branch: {}\n"
+msgstr ""
+
+#: src/versioncontrol/cap_perforce.py:435
+msgid "Perforce Sync"
+msgstr "Принудительная Синхронизация"
+
+#: src/versioncontrol/cap_perforce.py:436
+msgid "Perforce"
+msgstr "Принудительно"
+
+#: src/versioncontrol/cap_perforce.py:447
+msgid "Perforce Executable"
+msgstr "Принудительно Выполнить"
+
+#: src/versioncontrol/cap_svn.py:60
+msgid "Executable command to run svn"
+msgstr "Исполняемая команда для запуска svn"
+
+#: src/versioncontrol/cap_svn.py:159
+msgid "SVN Update"
+msgstr "Обновление SVN"
+
+#: src/versioncontrol/cap_svn.py:160
+msgid "SVN"
+msgstr ""
+
+#: src/versioncontrol/cap_svn.py:171
+msgid "SVN Executable"
+msgstr "SVN Исполняемая команда"
+
+#: src/versioncontrol/cap_svn.py:172
+msgid "SVN Admin Executable"
+msgstr "SVN Admin Исполняемая команда"
+
+#: src/versioncontrol/manager.py:518
+msgid "Tools"
+msgstr "Инструменты"
+
+#: src/versioncontrol/manager.py:518
+msgid "Window"
+msgstr "Окно"
+
+#: src/versioncontrol/manager.py:519
+msgid "Help"
+msgstr "Справка"
+
+#: src/versioncontrol/manager.py:557
+msgid "Auto-refresh %s Status"
+msgstr "Автообновление %s Статус"
+
+#: src/versioncontrol/manager.py:905
+msgid "No %s %s"
+msgstr "Нет %s %s"
+
+#: src/versioncontrol/manager.py:906
+msgid ""
+"%(identifier)s does not support a %(name)s command. The files were "
+"%(past_tense)s on disk, but new files and directories were not added and "
+"version control history was not copied."
+msgstr ""
+"%(identifier)s не поддерживает команду %(name)s. Файлы были %(past_tense)s "
+"на диске, но новые файлы и каталоги не были добавлены и история управления "
+"версиями не была скопирована."
+
+#: src/versioncontrol/manager.py:912
+msgid "OK"
+msgstr ""
+
+#: src/versioncontrol/manager.py:950
+msgid "Failed to inspect remote files"
+msgstr "Не удалось проверить удаленные файлы"
+
+#: src/versioncontrol/prefs.py:30
+msgid "Enable the integrated version control system."
+msgstr "Включите интегрированную систему контроля версий."
+
+#: src/versioncontrol/prefs.py:36
+msgid "Save without prompting before running version control commands."
+msgstr "Сохранить без запроса перед выполнением команд управления версиями."
+
+#: src/versioncontrol/prefs.py:42
+msgid ""
+"Maximum number of completed commands to store in the version control tool."
+msgstr ""
+"Максимальное количество завершенных команд для хранения в инструменте "
+"управления версиями."
+
+#: src/versioncontrol/prefs.py:48
+msgid ""
+"Watch disk for version control changes and refresh the Project view and "
+"Project Status accordingly."
+msgstr ""
+"Отслеживать диск для изменений контроля версий и обновлять представление "
+"проекта и состояние проекта соответственно."
+
+#: src/versioncontrol/prefs.py:55
+msgid ""
+"Track file add, remove, and rename operations made with Wing's Project view "
+"into the version control repository."
+msgstr ""
+"Отслеживание операций добавления, удаления и переименования файлов, "
+"выполненных с помощью представления \"Проект Wing\", в хранилище управления "
+"версиями."
+
+#: src/versioncontrol/prefs.py:62
+msgid "Log all commands to ide.log in the user settings directory."
+msgstr "Запись всех команд в ide.log в каталог пользовательских настроек."
+
+#: src/versioncontrol/prefs.py:70
+msgid "Always Active"
+msgstr "Всегда Активен"
+
+#: src/versioncontrol/prefs.py:71
+msgid "Active if used by project directories"
+msgstr "Активен, если используется каталогами проекта"
+
+#: src/versioncontrol/prefs.py:72
+msgid "Not active"
+msgstr "Не активен"
+
+#: src/versioncontrol/prefs.py:86
+msgid "Active"
+msgstr "Активный"
+
+#: src/versioncontrol/repository.py:123 src/versioncontrol/widgets.py:581
+msgid ""
+"\n"
+"[command terminated]\n"
+"\n"
+msgstr ""
+"\n"
+"[команда завершена]"
+
+#: src/versioncontrol/repository.py:213
+msgid "Executable command to run %s"
+msgstr "Исполняемая команда для запуска %s"
+
+#: src/versioncontrol/repository.py:216
+msgid "When %s version control support is active"
+msgstr "Когда %s поддержка управления версиями активна"
+
+#: src/versioncontrol/repository.py:295
+msgid "History of remote locations"
+msgstr "История удаленных местоположений"
+
+#: src/versioncontrol/repository.py:532
+msgid "Cannot commit because the commit message is empty"
+msgstr "Не удается зафиксировать (commit) , так как сообщение фиксации пусто"
+
+#: src/versioncontrol/widgets.py:234
+msgid "Save without _prompting"
+msgstr "Сохранить без запроса"
+
+#: src/versioncontrol/widgets.py:247 src/versioncontrol/widgets.py:249
+msgid "Commit selected files"
+msgstr "Зафиксировать(Commit ) выбранные файлы"
+
+#: src/versioncontrol/widgets.py:262
+msgid "Commit all project files"
+msgstr "Зафиксировать(Commit) все файлы проекта"
+
+#: src/versioncontrol/widgets.py:268
+msgid ""
+"Show differences between files in working directory and last committed "
+"version"
+msgstr ""
+"Показать различия(differences) между файлами в рабочем каталоге и последней "
+"зафиксированной версией"
+
+#: src/versioncontrol/widgets.py:282
+msgid "View status for entire project"
+msgstr "Просмотр состояния всего проекта"
+
+#: src/versioncontrol/widgets.py:289
+msgid "Show preferences page for selected VCS"
+msgstr "Показать страницу настроек для выбранного VCS"
+
+#: src/versioncontrol/widgets.py:296
+msgid "View status of the selected files in the working directory"
+msgstr "Просмотр состояния выбранных файлов в рабочем каталоге"
+
+#: src/versioncontrol/widgets.py:310
+msgid "Revert selected files"
+msgstr "Восстановить выбранные файлы"
+
+#: src/versioncontrol/widgets.py:323
+msgid "Discard Changes in Files?"
+msgstr "Отменить изменения в файлах?"
+
+#: src/versioncontrol/widgets.py:326
+msgid ""
+"Are you sure you want to discard your changes to %s and revert to the "
+"current state on this branch in %s?"
+msgstr ""
+"Вы действительно хотите отменить свои изменения в %s и вернуться к текущему "
+"состоянию в этой ветке в %s?"
+
+#: src/versioncontrol/widgets.py:333
+msgid "Show blame / praise / annotate for selected files"
+msgstr "Показать blame / praise / annotate для выбранных файлов"
+
+#: src/versioncontrol/widgets.py:347
+msgid "Add the files to %(label)s"
+msgstr "Добавьте файлы в %(label) s"
+
+#: src/versioncontrol/widgets.py:353
+msgid "Remove files"
+msgstr "Удалить файлы"
+
+#: src/versioncontrol/widgets.py:365
+msgid "Remove Files?"
+msgstr "Удалить файлы?"
+
+#: src/versioncontrol/widgets.py:369
+msgid ""
+"Are you sure you want to remove the following?\n"
+"\n"
+"%s"
+msgstr ""
+"Вы действительно хотите удалить следующее?\n"
+"\n"
+"%s"
+
+#: src/versioncontrol/widgets.py:431
+msgid "Ou_tput"
+msgstr "Результат"
+
+#: src/versioncontrol/widgets.py:439
+msgid "Cance_l"
+msgstr "Отмена"
+
+#: src/versioncontrol/widgets.py:443 src/versioncontrol/widgets.py:888
+msgid "Run Again"
+msgstr "Запустить еще раз"
+
+#: src/versioncontrol/widgets.py:552
+msgid "Failed to run: %s</span>"
+msgstr "Не удалось запустить: %s</span>"
+
+#: src/versioncontrol/widgets.py:606 src/versioncontrol/widgets.py:887
+#: src/versioncontrol/widgets.py:1254
+msgid "Goto Source"
+msgstr "Перейти к источнику"
+
+#: src/versioncontrol/widgets.py:607
+msgid "Copy"
+msgstr "Копия"
+
+#: src/versioncontrol/widgets.py:608
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: src/versioncontrol/widgets.py:660
+msgid "C_onsole"
+msgstr "Консоль"
+
+#: src/versioncontrol/widgets.py:889
+msgid "_Copy"
+msgstr "Копировать"
+
+#: src/versioncontrol/widgets.py:890
+msgid "Select _All"
+msgstr "Выбрать Все"
+
+#: src/versioncontrol/widgets.py:1042
+msgid "Failed to find source"
+msgstr "Не удалось найти источник"
+
+#: src/versioncontrol/widgets.py:1043
+msgid "Failed to find filename in diff output"
+msgstr "Не удалось найти имя файла для сравнения файлов"
+
+#: src/versioncontrol/widgets.py:1244 src/versioncontrol/widgets.py:2331
+msgid "Hide Unregistered"
+msgstr "Скрыть Незарегистрированные"
+
+#: src/versioncontrol/widgets.py:1247 src/versioncontrol/widgets.py:2327
+msgid "Show Unregistered"
+msgstr "Показать Незарегистрированный"
+
+#: src/versioncontrol/widgets.py:1249
+msgid "View as List"
+msgstr "Просмотреть как список"
+
+#: src/versioncontrol/widgets.py:1251
+msgid "View as Tree"
+msgstr "Посмотреть как дерево"
+
+#: src/versioncontrol/widgets.py:1453
+msgid "No modified files"
+msgstr "Нет измененных файлов"
+
+#: src/versioncontrol/widgets.py:1649
+msgid "No %s files in project"
+msgstr "Нет файлов %s в проекте"
+
+#: src/versioncontrol/widgets.py:1664
+msgid "_Output"
+msgstr "Вывести"
+
+#: src/versioncontrol/widgets.py:1684 src/versioncontrol/widgets.py:1710
+msgid "Status"
+msgstr "Статус"
+
+#: src/versioncontrol/widgets.py:1713
+msgid "Auto-refresh"
+msgstr "Автообновление"
+
+#: src/versioncontrol/widgets.py:1725
+msgid "Refresh"
+msgstr "Обновление"
+
+#: src/versioncontrol/widgets.py:1749
+msgid "Project Status"
+msgstr "Статус проекта"
+
+#: src/versioncontrol/widgets.py:1781
+msgid "Running status"
+msgstr "Рабочее состояние"
+
+#: src/versioncontrol/widgets.py:1824
+msgid "_Message"
+msgstr "Сообщение"
+
+#: src/versioncontrol/widgets.py:1832
+msgid "_Diffs"
+msgstr "Разница (сравнение)"
+
+#: src/versioncontrol/widgets.py:1836
+msgid "_Files"
+msgstr "Файлы"
+
+#: src/versioncontrol/widgets.py:1839
+msgid "_Commit"
+msgstr "Фиксировать"
+
+#: src/versioncontrol/widgets.py:1898
+msgid "Nothing to commit"
+msgstr "Нечего Фиксировать"
+
+#: src/versioncontrol/widgets.py:1908
+msgid "Committing"
+msgstr "Фиксировать изменения"
+
+#: src/versioncontrol/widgets.py:1918
+msgid "Commit succeeded"
+msgstr "Фиксация выполнена успешно"
+
+#: src/versioncontrol/widgets.py:1921
+msgid "Commit failed"
+msgstr "Ошибка коммита"
+
+#: src/versioncontrol/widgets.py:1980
+msgid "Command completed:  Output displayed in scratch editor."
+msgstr "Команда завершена: Результат отображается во временном редакторе."
+
+#: src/versioncontrol/widgets.py:2063
+msgid "_Locations"
+msgstr "Местоположение"
+
+#: src/versioncontrol/widgets.py:2090
+msgid "Repository"
+msgstr "Репозиторий"
+
+#: src/versioncontrol/widgets.py:2091 src/versioncontrol/widgets.py:2188
+#: src/versioncontrol/widgets.py:2232
+msgid "Working directory"
+msgstr "Рабочий каталог"
+
+#: src/versioncontrol/widgets.py:2115 src/versioncontrol/widgets.py:2202
+#: src/versioncontrol/widgets.py:2246
+msgid "Missing locations"
+msgstr "Отсутствующие места"
+
+#: src/versioncontrol/widgets.py:2116
+msgid "Both the repository and the working directory must be specified"
+msgstr "Необходимо указать как репозиторий, так и рабочий каталог"
+
+#: src/versioncontrol/widgets.py:2139
+#, fuzzy
+msgid "New _branch name"
+msgstr "Имя Ветки"
+
+#: src/versioncontrol/widgets.py:2140
+#, fuzzy
+msgid "Working _directory"
+msgstr "Рабочий каталог"
+
+#: src/versioncontrol/widgets.py:2142
+#, fuzzy
+msgid "_Create Branch"
+msgstr "Слить Всю Ветку"
+
+#: src/versioncontrol/widgets.py:2153
+#, fuzzy
+msgid "Invalid Branch Name"
+msgstr "Имя Ветки"
+
+#: src/versioncontrol/widgets.py:2154
+#, fuzzy
+msgid "You must enter a branch name"
+msgstr "Протолкнуть(Push) целую ветвь"
+
+#: src/versioncontrol/widgets.py:2159
+#, fuzzy
+msgid "No working directory"
+msgstr "Рабочий каталог"
+
+#: src/versioncontrol/widgets.py:2160
+#, fuzzy
+msgid "You must enter a working directory"
+msgstr "Не могу найти рабочий каталог git "
+
+#: src/versioncontrol/widgets.py:2169
+msgid "Creating branch {} and switching to it:"
+msgstr ""
+
+#: src/versioncontrol/widgets.py:2191
+msgid "_Switch Branch"
+msgstr "Переключить Ветку"
+
+#: src/versioncontrol/widgets.py:2203 src/versioncontrol/widgets.py:2247
+msgid "Both the working directory and the branch must be specified"
+msgstr "Необходимо указать как рабочий каталог, так и ветку"
+
+#: src/versioncontrol/widgets.py:2235
+#, fuzzy
+msgid "_Merge Branch"
+msgstr "Слить Всю Ветку"
+
+#: src/versioncontrol/widgets.py:2308
+msgid "Configure %s"
+msgstr "Конфигурировать %s"
+
+#: src/versioncontrol/widgets.py:2309
+msgid "Display Documentation"
+msgstr "Показать документацию"
+
+#: src/versioncontrol/widgets.py:2314
+msgid "Show Scope"
+msgstr "Показать Область"
+
+#: src/versioncontrol/widgets.py:2316
+msgid "Hide Scope"
+msgstr "Скрыть Область"
+
+#: src/versioncontrol/widgets.py:2319
+msgid "Show Console"
+msgstr "Показать Консоль"
+
+#: src/versioncontrol/widgets.py:2321
+msgid "Hide Console"
+msgstr "Скрыть Консоль"
+
+#~ msgid "Commit Project"
+#~ msgstr "Зафиксировать(Commit) Проект"
+
+#~ msgid "Push Entire Branch"
+#~ msgstr "Протолкнуть Всю Ветку"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Merge entire branch"
+#~ msgstr "Слияние всей ветки"
+
+#~ msgid "Merge from"
+#~ msgstr "Слить из"
+
+#~ msgid "Merge"
+#~ msgstr "Слияние"
+
+#~ msgid "_Merge"
+#~ msgstr "Слияние (Merge)"

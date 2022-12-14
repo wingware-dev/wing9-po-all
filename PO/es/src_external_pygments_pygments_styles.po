@@ -1,0 +1,16 @@
+# Module src_external_pygments_pygments_styles translation file for language=es
+# Copyright (C) 2022 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 9.0.1\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2022-12-14 09:35 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"

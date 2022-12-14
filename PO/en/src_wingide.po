@@ -1,0 +1,809 @@
+# Module src_wingide translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/wingide/aboutbox.py:46
+msgid "About Wing"
+msgstr ""
+
+#: src/wingide/aboutbox.py:107
+msgid "Product"
+msgstr ""
+
+#: src/wingide/aboutbox.py:108
+msgid "Version"
+msgstr ""
+
+#: src/wingide/aboutbox.py:109
+msgid "Release Type"
+msgstr ""
+
+#: src/wingide/aboutbox.py:110
+msgid "Release Date"
+msgstr ""
+
+#: src/wingide/aboutbox.py:111
+msgid "Install Directory"
+msgstr ""
+
+#: src/wingide/aboutbox.py:112
+msgid "Settings Directory"
+msgstr ""
+
+#: src/wingide/aboutbox.py:113
+msgid "Cache Directory"
+msgstr ""
+
+#: src/wingide/aboutbox.py:114
+msgid "OS"
+msgstr ""
+
+#: src/wingide/aboutbox.py:115
+msgid "OS Version"
+msgstr ""
+
+#: src/wingide/aboutbox.py:116
+msgid "CPU"
+msgstr ""
+
+#: src/wingide/aboutbox.py:117
+msgid "Memory"
+msgstr ""
+
+#: src/wingide/aboutbox.py:118
+msgid "Locale"
+msgstr ""
+
+#: src/wingide/aboutbox.py:119
+msgid "GUI Toolkit"
+msgstr ""
+
+#: src/wingide/aboutbox.py:120
+msgid "Original Install"
+msgstr ""
+
+#: src/wingide/aboutbox.py:121
+msgid "Retained Updates"
+msgstr ""
+
+#: src/wingide/aboutbox.py:143
+msgid "_Check for Updates"
+msgstr ""
+
+#: src/wingide/aboutbox.py:149
+msgid "_Revert Updates"
+msgstr ""
+
+#: src/wingide/aboutbox.py:153
+msgid "_Version"
+msgstr ""
+
+#: src/wingide/aboutbox.py:158
+msgid "License Number"
+msgstr ""
+
+#: src/wingide/aboutbox.py:159
+msgid "Licensed Product"
+msgstr ""
+
+#: src/wingide/aboutbox.py:160
+msgid "License Type"
+msgstr ""
+
+#: src/wingide/aboutbox.py:161
+msgid "Activation Date"
+msgstr ""
+
+#: src/wingide/aboutbox.py:162
+msgid "License Term"
+msgstr ""
+
+#: src/wingide/aboutbox.py:163
+msgid "Country/Region of Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:164
+msgid "Customer Info"
+msgstr ""
+
+#: src/wingide/aboutbox.py:177
+msgid "Perpetual License - Commercial Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:179
+msgid "Perpetual License - Non-Commercial Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:181
+msgid "Perpetual License - Educational Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:183
+msgid "Trial License - Evaluation Use Only"
+msgstr ""
+
+#: src/wingide/aboutbox.py:185
+msgid "Annual License - Commercial Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:187
+msgid "Annual License - Non-Commercial Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:189
+msgid "Free Annual License - Educational Use"
+msgstr ""
+
+#: src/wingide/aboutbox.py:191
+msgid "Invalid License Type"
+msgstr ""
+
+#: src/wingide/aboutbox.py:195
+msgid "Worldwide"
+msgstr ""
+
+#: src/wingide/aboutbox.py:201
+msgid "%s (unknown)"
+msgstr ""
+
+#: src/wingide/aboutbox.py:207
+msgid "version"
+msgstr ""
+
+#: src/wingide/aboutbox.py:213
+msgid "(missing)"
+msgstr ""
+
+#: src/wingide/aboutbox.py:230
+msgid "_Deactivate License"
+msgstr ""
+
+#: src/wingide/aboutbox.py:235
+msgid "_Renew License"
+msgstr ""
+
+#: src/wingide/aboutbox.py:244
+msgid "_License"
+msgstr ""
+
+#: src/wingide/aboutbox.py:256
+msgid "_Credits"
+msgstr ""
+
+#: src/wingide/aboutbox.py:269
+msgid "Close"
+msgstr ""
+
+#: src/wingide/aboutbox.py:295
+msgid "Revert to %s"
+msgstr ""
+
+#: src/wingide/aboutbox.py:301
+msgid "Revert to %s?"
+msgstr ""
+
+#: src/wingide/aboutbox.py:302
+msgid "Are you sure you want to revert to version %s?"
+msgstr ""
+
+#: src/wingide/aboutbox.py:324
+msgid "_Revert"
+msgstr ""
+
+#: src/wingide/aboutbox.py:325 src/wingide/updatemgr.py:407
+#: src/wingide/updatemgr.py:591 src/wingide/updatemgr.py:701
+#: src/wingide/wingapp.py:1512 src/wingide/wingapp.py:1946
+msgid "_Cancel"
+msgstr ""
+
+#: src/wingide/updatemgr.py:58 src/wingide/updatemgr.py:180
+#: src/wingide/updatemgr.py:423 src/wingide/updatemgr.py:856
+#: src/wingide/updatemgr.py:980 src/wingide/updatemgr.py:1004
+#: src/wingide/updatemgr.py:1014 src/wingide/updatemgr.py:1024
+#: src/wingide/wingapp.py:1945 src/wingide/wingapp.py:1974
+msgid "_OK"
+msgstr ""
+
+#: src/wingide/updatemgr.py:90
+msgid "Skipping update check -- done too recently"
+msgstr ""
+
+#: src/wingide/updatemgr.py:167
+msgid "Finding Updates"
+msgstr ""
+
+#: src/wingide/updatemgr.py:168
+msgid "Submitting update request. Please wait:"
+msgstr ""
+
+#: src/wingide/updatemgr.py:193
+msgid "Starting update check..."
+msgstr ""
+
+#: src/wingide/updatemgr.py:195
+msgid "Submitting usage stats..."
+msgstr ""
+
+#: src/wingide/updatemgr.py:210
+msgid "Connecting to wingware.com"
+msgstr ""
+
+#: src/wingide/updatemgr.py:233 src/wingide/wingapp.py:1964
+msgid "Network Error"
+msgstr ""
+
+#: src/wingide/updatemgr.py:234
+msgid ""
+"Unable to connect to wingware.com.  Please check your network connection and "
+"try again."
+msgstr ""
+
+#: src/wingide/updatemgr.py:239
+msgid ""
+"If you don't have access to the internet on this machine, use the following "
+"url on another machine to generate an update that you can install with Apply "
+"Update from the Help menu:"
+msgstr ""
+
+#: src/wingide/updatemgr.py:278
+msgid "Submitting Stats"
+msgstr ""
+
+#: src/wingide/updatemgr.py:289
+msgid "Checking for Updates"
+msgstr ""
+
+#: src/wingide/updatemgr.py:314
+msgid "Waiting for Reply"
+msgstr ""
+
+#: src/wingide/updatemgr.py:323
+msgid "Reading Reply"
+msgstr ""
+
+#: src/wingide/updatemgr.py:332
+msgid "Error Obtaining Updates"
+msgstr ""
+
+#: src/wingide/updatemgr.py:333
+msgid ""
+"An error was encountered parsing the updates list.  This may be caused by a "
+"web proxy server, or transient network problem."
+msgstr ""
+
+#: src/wingide/updatemgr.py:364
+msgid "There are no new updates available.  Your copy of %s %s is up to date."
+msgstr ""
+
+#: src/wingide/updatemgr.py:366
+msgid "No Updates Available"
+msgstr ""
+
+#: src/wingide/updatemgr.py:372
+msgid ""
+"However a new major release, version %s, is available for download here: %s"
+msgstr ""
+
+#: src/wingide/updatemgr.py:374
+msgid ""
+"An update to version %s is available but requires downloading an installer: "
+"%s"
+msgstr ""
+
+#: src/wingide/updatemgr.py:375
+msgid "Update Requires an Installer"
+msgstr ""
+
+#: src/wingide/updatemgr.py:378
+msgid "Show Details"
+msgstr ""
+
+#: src/wingide/updatemgr.py:391
+msgid "Support+Upgrades Expired"
+msgstr ""
+
+#: src/wingide/updatemgr.py:392
+msgid "Renew _Support+Upgrades"
+msgstr ""
+
+#: src/wingide/updatemgr.py:395
+msgid "Support+Upgrades Expiring Soon"
+msgstr ""
+
+#: src/wingide/updatemgr.py:396
+msgid "Extend _Support+Upgrades"
+msgstr ""
+
+#: src/wingide/updatemgr.py:399
+msgid "No Support+Upgrades Subscription"
+msgstr ""
+
+#: src/wingide/updatemgr.py:400
+msgid "Add _Support+Upgrades"
+msgstr ""
+
+#: src/wingide/updatemgr.py:411
+msgid "_Automatically show this reminder"
+msgstr ""
+
+#: src/wingide/updatemgr.py:427
+msgid "Note: %s"
+msgstr ""
+
+#: src/wingide/updatemgr.py:442
+msgid "Preparing Interface"
+msgstr ""
+
+#: src/wingide/updatemgr.py:590
+msgid "_Update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:594
+msgid "A Newer Version is Available"
+msgstr ""
+
+#: src/wingide/updatemgr.py:610
+msgid "New Version!"
+msgstr ""
+
+#: src/wingide/updatemgr.py:610
+msgid "Summary of changes:"
+msgstr ""
+
+#: src/wingide/updatemgr.py:642
+msgid "Automatically check for updates"
+msgstr ""
+
+#: src/wingide/updatemgr.py:704
+msgid "Installing Updates"
+msgstr ""
+
+#: src/wingide/updatemgr.py:729
+msgid "Downloading update to %s"
+msgstr ""
+
+#: src/wingide/updatemgr.py:778
+msgid "Connecting to server"
+msgstr ""
+
+#: src/wingide/updatemgr.py:783
+msgid "Could not open connection to download update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:790
+msgid "Downloading update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:796
+msgid "Downloading update (%d.2MB)"
+msgstr ""
+
+#: src/wingide/updatemgr.py:802
+msgid "Failed to download update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:808
+msgid "Installing update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:857
+msgid "Update Failed"
+msgstr ""
+
+#: src/wingide/updatemgr.py:858
+msgid ""
+"The update could not be applied.  Errors were:\n"
+"\n"
+msgstr ""
+
+#: src/wingide/updatemgr.py:876
+msgid "_Restart Now"
+msgstr ""
+
+#: src/wingide/updatemgr.py:880
+msgid "_Continue Working"
+msgstr ""
+
+#: src/wingide/updatemgr.py:884
+msgid "Validation Failed"
+msgstr ""
+
+#: src/wingide/updatemgr.py:886
+msgid "Revert completed but the following validation errors were found."
+msgstr ""
+
+#: src/wingide/updatemgr.py:888
+msgid ""
+"The upgrade was installed but the following validation errors were found."
+msgstr ""
+
+#: src/wingide/updatemgr.py:889
+msgid ""
+"This indicates that some files have changed since they were originally "
+"installed:"
+msgstr ""
+
+#: src/wingide/updatemgr.py:893
+msgid "Revert Scheduled"
+msgstr ""
+
+#: src/wingide/updatemgr.py:894
+msgid "Wing will revert to version %s after restarting."
+msgstr ""
+
+#: src/wingide/updatemgr.py:896
+msgid "Update Complete"
+msgstr ""
+
+#: src/wingide/updatemgr.py:897
+msgid ""
+"The update has been installed successfully.  Please restart Wing to start "
+"using the new version."
+msgstr ""
+
+#: src/wingide/updatemgr.py:912
+msgid "Could not read update data."
+msgstr ""
+
+#: src/wingide/updatemgr.py:932
+msgid "Could not install update in %s or %s -- update failed."
+msgstr ""
+
+#: src/wingide/updatemgr.py:941
+msgid "Failed to extract %s to %s -- update failed."
+msgstr ""
+
+#: src/wingide/updatemgr.py:965
+msgid "Could not write pending revert flag to %s"
+msgstr ""
+
+#: src/wingide/updatemgr.py:978
+msgid "Invalid Update File"
+msgstr ""
+
+#: src/wingide/updatemgr.py:979
+msgid "The selected file %s is not an update file"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1001 src/wingide/updatemgr.py:1022
+msgid "Cannot Apply Update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1002 src/wingide/updatemgr.py:1012
+msgid ""
+"The selected update file %s cannot be used because it does not match the "
+"currently running version"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1011
+msgid "Update Mismatch"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1023
+msgid "The selected update file {} cannot be opened"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1037
+msgid "Select Update"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1038
+msgid "Select the update file"
+msgstr ""
+
+#: src/wingide/updatemgr.py:1053
+msgid ""
+"Your license is not covered by Support+Upgrades.  Subscribing provides email "
+"support and free upgrades to new major releases."
+msgstr ""
+
+#: src/wingide/updatemgr.py:1057
+msgid ""
+"Your Support+Upgrades subscription expired at the end of %s.  Renew now for "
+"email support and free upgrades to new major releases."
+msgstr ""
+
+#: src/wingide/updatemgr.py:1061
+msgid ""
+"Your Support+Upgrades subscription will expire at the end of %s.  Renew now "
+"to retain email support and free upgrades to new major releases."
+msgstr ""
+
+#: src/wingide/updatemgr.py:1065
+msgid ""
+"Your Support+Upgrades subscription is valid through %s, providing you with "
+"email support and free upgrades to new major releases."
+msgstr ""
+
+#: src/wingide/wingapp.py:288
+msgid "Initializing script manager..."
+msgstr ""
+
+#: src/wingide/wingapp.py:579
+msgid "Could not store foreground lock timeout"
+msgstr ""
+
+#: src/wingide/wingapp.py:580
+msgid ""
+"Warning: Wing may fail to come to the front when debug processes stop.  To "
+"fix this, quit all instances of Wing and remove the file %s."
+msgstr ""
+
+#: src/wingide/wingapp.py:617
+msgid ""
+"WARNING: Could not restore the original foreground lock timeout used on "
+"Windows 98/ME and 2K/XP to control whether background applications can raise "
+"windows to the very front.  This means that other applications may be able "
+"to raise windows unexpectedly until you log out or reboot."
+msgstr ""
+
+#: src/wingide/wingapp.py:748
+msgid "Starting application instance manager..."
+msgstr ""
+
+#: src/wingide/wingapp.py:787
+msgid "Checking autosaves..."
+msgstr ""
+
+#: src/wingide/wingapp.py:842
+msgid "Cannot execute unsaved file."
+msgstr ""
+
+#: src/wingide/wingapp.py:845
+msgid "Cannot execute %s because it does not exist."
+msgstr ""
+
+#: src/wingide/wingapp.py:846
+msgid "Cannot execute"
+msgstr ""
+
+#: src/wingide/wingapp.py:1051
+msgid "Could not display %s\n"
+msgstr ""
+
+#: src/wingide/wingapp.py:1052
+msgid "Error = %s\n"
+msgstr ""
+
+#: src/wingide/wingapp.py:1053
+msgid "Failed to display document viewer or web browser"
+msgstr ""
+
+#: src/wingide/wingapp.py:1054 src/wingide/wingapp.py:1190
+msgid "Could not display"
+msgstr ""
+
+#: src/wingide/wingapp.py:1142
+msgid "Bad viewer command"
+msgstr ""
+
+#: src/wingide/wingapp.py:1144
+msgid "Timeout waiting for process exit"
+msgstr ""
+
+#: src/wingide/wingapp.py:1146
+msgid "Could not start process"
+msgstr ""
+
+#: src/wingide/wingapp.py:1148
+msgid "Process failed"
+msgstr ""
+
+#: src/wingide/wingapp.py:1152
+msgid "Could not find in path"
+msgstr ""
+
+#: src/wingide/wingapp.py:1173 src/wingide/wingapp.py:1175
+msgid "Python webbrowser.open() failed"
+msgstr ""
+
+#: src/wingide/wingapp.py:1187
+msgid ""
+"Could not launch document viewer for %s.  Tried these:\n"
+"\n"
+msgstr ""
+
+#: src/wingide/wingapp.py:1189
+msgid "%s (Error=%ld): %s\n"
+msgstr ""
+
+#: src/wingide/wingapp.py:1225
+msgid "Could not read autosave file: %s"
+msgstr ""
+
+#: src/wingide/wingapp.py:1238
+msgid "Could restore remote project auto-save file: %s"
+msgstr ""
+
+#: src/wingide/wingapp.py:1247
+msgid "Could restore project auto-save file: %s"
+msgstr ""
+
+#: src/wingide/wingapp.py:1279
+msgid "Recover Unsaved Changes?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1280
+msgid ""
+"Wing has found changes that were not saved during your last session.  Please "
+"select the files you wish to recover:"
+msgstr ""
+
+#: src/wingide/wingapp.py:1297 src/wingide/wingapp.py:1314
+msgid "_Discard Unsaved Changes"
+msgstr ""
+
+#: src/wingide/wingapp.py:1298 src/wingide/wingapp.py:1315
+msgid "_Re-select Files"
+msgstr ""
+
+#: src/wingide/wingapp.py:1300
+msgid "Discard Unsaved Changes?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1301
+msgid "Are you sure you want to discard all unsaved changes?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1317
+msgid "Discard Some Unsaved Changes?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1318
+msgid ""
+"Are you sure you want to discard the unsaved changes in the files you did "
+"not select?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1328
+msgid "_Restore Selected Files"
+msgstr ""
+
+#: src/wingide/wingapp.py:1329
+msgid "Do _not Restore"
+msgstr ""
+
+#: src/wingide/wingapp.py:1365
+msgid "Opening specified project..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1369
+msgid ""
+"Warning: More than one project specified on command line. Only the last one "
+"was opened."
+msgstr ""
+
+#: src/wingide/wingapp.py:1381
+msgid "Opening recent project..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1389
+msgid "Preparing workspace..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1391
+msgid "Opening default project..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1402
+msgid "Displaying windows..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1406
+msgid "Opening files..."
+msgstr ""
+
+#: src/wingide/wingapp.py:1485
+msgid "No License::Failed to deactivate:  No license is active."
+msgstr ""
+
+#: src/wingide/wingapp.py:1488
+msgid ""
+"Cannot Deactivate Trial::Wing cannot deactivate a trial license. Each "
+"installation uses a unique trial license.  If you need more time on your "
+"trial, please email the license number %s to support@wingware.com."
+msgstr ""
+
+#: src/wingide/wingapp.py:1500
+msgid ""
+"Failed to Deactivate::Failed to deactivate the license %s.  Please check "
+"permissions on file %s"
+msgstr ""
+
+#: src/wingide/wingapp.py:1503
+msgid ""
+"Failed to Deactivate::Failed to deactivate the license %s:  Unknown error."
+msgstr ""
+
+#: src/wingide/wingapp.py:1507
+msgid "Deactivate License and Quit?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1508
+msgid ""
+"Are you sure you want to deactivate and remove license %s and quit Wing?"
+msgstr ""
+
+#: src/wingide/wingapp.py:1511
+msgid "_Deactivate and Quit"
+msgstr ""
+
+#: src/wingide/wingapp.py:1616
+msgid "_Never show any offers"
+msgstr ""
+
+#: src/wingide/wingapp.py:1634
+msgid "_Buy Wing Pro Now!"
+msgstr ""
+
+#: src/wingide/wingapp.py:1635
+msgid "_Remind Me Later"
+msgstr ""
+
+#: src/wingide/wingapp.py:1636
+msgid "_Skip This Offer"
+msgstr ""
+
+#: src/wingide/wingapp.py:1768
+msgid "Alpha"
+msgstr ""
+
+#: src/wingide/wingapp.py:1770
+msgid "Beta"
+msgstr ""
+
+#: src/wingide/wingapp.py:1772
+msgid "Release Candidate"
+msgstr ""
+
+#: src/wingide/wingapp.py:1774
+msgid "Final Release"
+msgstr ""
+
+#: src/wingide/wingapp.py:1949
+msgid "Proxy Server Configuration"
+msgstr ""
+
+#: src/wingide/wingapp.py:1965
+msgid ""
+"Unable to connect to wingware.com.  Please check your network connection and "
+"try again.\n"
+"\n"
+"You may need to manually configure proxy settings if you are using an http "
+"proxy and Wing is not picking up the settings automatically."
+msgstr ""
+
+#: src/wingide/wingapp.py:1971
+msgid "_Configure Proxy..."
+msgstr ""
+
+#: src/wingide/wingapp.py:2034
+msgid ""
+"Please quit Wing before logging out or shutting down your system.  This "
+"ensures that all your changes will be saved to disk."
+msgstr ""
+
+#: src/wingide/wingapp.py:2034 src/wingide/wingapp.py:2038
+msgid "Please quit Wing"
+msgstr ""
+
+#: src/wingide/wingapp.py:2038
+msgid ""
+"Some remotely stored files were not saved.  Please check Wing before logging "
+"out to make sure that all your remotely stored files have been saved "
+"successfully."
+msgstr ""

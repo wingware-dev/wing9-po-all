@@ -1,0 +1,64 @@
+# translation of build-files.po to
+# Module build-files translation file for language=en
+# Wing Python IDE -- wingware.com
+msgid ""
+msgstr ""
+"Project-Id-Version: build-files\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2017-05-01 19:55+0200\n"
+"Last-Translator: alexandr\n"
+"Language-Team: support@ingeniweb.com\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.0.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-files/releasebuild.py:1734
+msgid "Introduction to Wing %s"
+msgstr "Введение в Wing %s"
+
+#: build-files/releasebuild.py:1735
+msgid "Wing %s Reference Manual"
+msgstr "Справочное руководство Wing %s"
+
+#: build-files/releasebuild.py:1736
+msgid "Wing %s How-Tos"
+msgstr "Wing %s How-Tos"
+
+#: build-files/releasebuild.py:1737
+msgid "Wing %s Quick Start Guide"
+msgstr ""
+
+#: build-files/releasebuild.py:1786
+msgid "Table of Contents"
+msgstr "Оглавление"
+
+#: build-files/releasebuild.py:2376
+msgid "Wing Pro - Non-Commercial Use"
+msgstr "Wing Pro - некоммерческое использование"
+
+#: build-files/releasebuild.py:2377
+msgid "Wing Pro - Commercial Use"
+msgstr "Wing Pro - коммерческое использование"
+
+#: build-files/releasebuild.py:2378
+msgid "Wing Pro - 30-Day Trial"
+msgstr "Wing Pro - 30-дневная пробная версия"
+
+#~ msgid "Wing Tips"
+#~ msgstr "Подсказки Wing"
+
+#~ msgid "Personal"
+#~ msgstr "Персональный"
+
+#~ msgid "Wing for Steam - Non-Commercial Use"
+#~ msgstr "Wing для энтузиастов - некоммерческое использование"
+
+#~ msgid "Wing for Steam - Commercial Use"
+#~ msgstr "Wing для энтузиастов - Коммерческое использование"
+
+#~ msgid "Wing for Steam - 30-Day Trial"
+#~ msgstr "Wing для энтузиастов - 30-дневная пробная версия"

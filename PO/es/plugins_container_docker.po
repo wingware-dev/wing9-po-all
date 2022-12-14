@@ -1,0 +1,142 @@
+# Module plugins_container_docker translation file for language=es
+# Copyright (C) 2022 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 9.0.1\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2022-12-14 09:52 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: plugins/container/docker.py:23
+#, docstring
+msgid "Support for launching a Docker container instance and commands."
+msgstr ""
+
+#: plugins/container/docker.py:70
+#, docstring
+msgid "Run 'docker ps' and return a list of running image_ids"
+msgstr ""
+
+#: plugins/container/docker.py:84
+msgid "Output:"
+msgstr ""
+
+#: plugins/container/docker.py:90
+msgid "Failed to run 'docker ps'"
+msgstr ""
+
+#: plugins/container/docker.py:95
+msgid "Failed to parse 'docker ps' output"
+msgstr ""
+
+#: plugins/container/docker.py:101
+msgid "Failed to start 'docker ps'"
+msgstr ""
+
+#: plugins/container/docker.py:111
+#, docstring
+msgid ""
+"Stop any instances of given image, to get rid of any left over from previous\n"
+"    runs.  In general there should be none but can be if Wing crashes or is terminated\n"
+"    from the outside."
+msgstr ""
+
+#: plugins/container/docker.py:207
+msgid "Docker instance {} terminated unexpectedly; err={}"
+msgstr ""
+
+#: plugins/container/docker.py:217
+msgid "Docker container launch failed; trying to terminate stale instances"
+msgstr ""
+
+#: plugins/container/docker.py:224
+msgid "Docker container launch failed - docker run terminated unexpectedly"
+msgstr ""
+
+#: plugins/container/docker.py:233
+msgid "Failed to start Docker instance: {}"
+msgstr ""
+
+#: plugins/container/docker.py:240
+msgid "Container {} is ready"
+msgstr ""
+
+#: plugins/container/docker.py:248 plugins/container/docker.py:358
+msgid "Running: {}"
+msgstr ""
+
+#: plugins/container/docker.py:262
+msgid "Docker run failed to start - timeout"
+msgstr ""
+
+#: plugins/container/docker.py:273
+#, docstring
+msgid ""
+"Read the container ID from the cidfile.  Sets the container_id attribute and\n"
+"    calls launch cbs with appropriate status/error."
+msgstr ""
+
+#: plugins/container/docker.py:280
+msgid "Docker instance cidfile {} was not created"
+msgstr ""
+
+#: plugins/container/docker.py:290
+msgid "Failed to read Docker instance cidfile {}"
+msgstr ""
+
+#: plugins/container/docker.py:306
+#, docstring
+msgid "Try terminating stale instances for this container and then attempt Launch again"
+msgstr ""
+
+#: plugins/container/docker.py:313
+msgid "Retrying Docker launch"
+msgstr ""
+
+#: plugins/container/docker.py:316
+msgid "Terminating stale instances for image_id"
+msgstr ""
+
+#: plugins/container/docker.py:335
+msgid "Terminated Docker image_id {} instance_id {}"
+msgstr ""
+
+#: plugins/container/docker.py:345
+msgid "Failed to run 'docker kill {}'"
+msgstr ""
+
+#: plugins/container/docker.py:509
+#, docstring
+msgid "Return a list of all active container instances"
+msgstr ""
+
+#: plugins/container/docker.py:526
+msgid "Timed out in 'docker image inspect {}'"
+msgstr ""
+
+#: plugins/container/docker.py:534 plugins/container/docker.py:541
+msgid "Failed to run 'docker image inspect {}'"
+msgstr ""
+
+#: plugins/container/docker.py:552
+#, docstring
+msgid ""
+"Register a callback to invoke when the runtime status of containers change. The\n"
+"    callback is invoked with (uid, status) where status is one of the container status\n"
+"    class attributes for CContainerInstance: kRunning, kTerminated, kStarting,\n"
+"    kStartFailed, kTerminating."
+msgstr ""
+
+#: plugins/container/docker.py:560
+#, docstring
+msgid "Remove a callback previously registered with RegisterStatusCallback()."
+msgstr ""
+

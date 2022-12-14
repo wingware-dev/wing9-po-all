@@ -1,0 +1,99 @@
+# Module plugins_cluster_dockercompose translation file for language=ru
+# Copyright (C) 2022 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 9.0.1\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2022-12-14 09:35 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: plugins/cluster/dockercompose.py:94
+msgid "Docker Compose for {} terminated unexpectedly; err={}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:113
+msgid "Failed to start Docker Compose: {}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:126
+msgid "Running: {}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:191
+msgid "Cluster termination callback failed: {}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:208
+msgid "Failed to shut down Docker Compose: {}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:223
+msgid "Shutting down Docker Compose: running {} in {}"
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:370
+msgid "Get the built image used by the service."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:380
+msgid ""
+"Get the image from which the named service was built; falls back on the "
+"service image\n"
+"    if it cannot be determined.  It is the same as the service image if "
+"nothing was built."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:436
+msgid ""
+"Create a derived cluster configuration based on the given configuration, in "
+"order\n"
+"    to add the given environment and host->container file mappings.  The "
+"arguments are:\n"
+"    \n"
+"      config_path -- The full path to the existing configuration file\n"
+"      envs        -- A list of (name, value) environment variables to add\n"
+"      mappings    -- A dictionary from container service name to lists of\n"
+"                     (host, container) file mappings\n"
+"      \n"
+"    The configuration is written into the same directory as config_path and "
+"the full path\n"
+"    to it returned. The caller will remove the configuration when no longer "
+"needed."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:489
+msgid " yaml is defined as utf-16 or utf-8.  We assume it's utf-8 "
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:532
+msgid ""
+"Get a list of config paths for all clusters that are currently running or\n"
+"    in the process of terminating."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:538
+msgid "Shut down all currently running clusters."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:544
+msgid ""
+"Register a callback to invoke when the runtime status of clusters change. "
+"The\n"
+"    callback is invoked with (config_path, status) where status is one of "
+"the cluster\n"
+"    status class attributes for CContainerInstance: kRunning, kTerminated, "
+"kStarting,\n"
+"    kStartFailed, kTerminating."
+msgstr ""
+
+#: plugins/cluster/dockercompose.py:552
+msgid "Remove a callback previously registered with RegisterStatusCallback()."
+msgstr ""

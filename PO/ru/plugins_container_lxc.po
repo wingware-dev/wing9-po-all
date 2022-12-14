@@ -1,0 +1,152 @@
+# Module plugins_container_lxc translation file for language=ru
+# Copyright (C) 2022 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 9.0.1\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2022-12-14 09:35 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: plugins/container/lxc.py:28
+msgid "Support for launching an LXC container instance and commands."
+msgstr ""
+
+#: plugins/container/lxc.py:72
+msgid "Get a list of running image_ids"
+msgstr ""
+
+#: plugins/container/lxc.py:87
+msgid "Output:"
+msgstr ""
+
+#: plugins/container/lxc.py:93
+msgid "Failed to run 'lxc list'"
+msgstr ""
+
+#: plugins/container/lxc.py:98
+msgid "Failed to parse 'lxc list' output"
+msgstr ""
+
+#: plugins/container/lxc.py:104
+msgid "Failed to start 'lxc list'"
+msgstr ""
+
+#: plugins/container/lxc.py:146
+msgid "LXC instance {} failed to start; err={}"
+msgstr ""
+
+#: plugins/container/lxc.py:155
+msgid "Failed to start LXC instance: {}"
+msgstr ""
+
+#: plugins/container/lxc.py:167 plugins/container/lxc.py:259
+msgid "Running: {}"
+msgstr ""
+
+#: plugins/container/lxc.py:181
+msgid "lxc start failed to start - timeout"
+msgstr ""
+
+#: plugins/container/lxc.py:236
+msgid "Terminated LXC container {}"
+msgstr ""
+
+#: plugins/container/lxc.py:246
+msgid "Failed to run 'lxc stop {}'"
+msgstr ""
+
+#: plugins/container/lxc.py:267
+msgid "Undo configuration put into place by __ConfigureAndLaunch"
+msgstr ""
+
+#: plugins/container/lxc.py:304 plugins/container/lxc.py:497
+msgid "Starting command {} in {}"
+msgstr ""
+
+#: plugins/container/lxc.py:308
+msgid "Process failed to start"
+msgstr ""
+
+#: plugins/container/lxc.py:311 plugins/container/lxc.py:505
+msgid "Process failed with errno={}"
+msgstr ""
+
+#: plugins/container/lxc.py:318
+msgid "Deconfigure failed"
+msgstr ""
+
+#: plugins/container/lxc.py:320
+msgid "Deconfigure complete"
+msgstr ""
+
+#: plugins/container/lxc.py:334
+msgid "Deconfiguring container"
+msgstr ""
+
+#: plugins/container/lxc.py:458
+msgid ""
+"Stop container if running, remove any stale configuration added previously\n"
+"    in __ConfigureAndLaunch and then start reconfiguration and launch"
+msgstr ""
+
+#: plugins/container/lxc.py:464
+msgid ""
+"Set up environment variables, file mounts, port forwards, and other "
+"networking\n"
+"    used by container, and then launch the container instance."
+msgstr ""
+
+#: plugins/container/lxc.py:501
+msgid "Process failed to start:"
+msgstr ""
+
+#: plugins/container/lxc.py:512
+msgid "LXC configuration succeeded"
+msgstr ""
+
+#: plugins/container/lxc.py:515
+msgid "LXC configuration failed"
+msgstr ""
+
+#: plugins/container/lxc.py:523
+msgid "Configuring LXC instance {}"
+msgstr ""
+
+#: plugins/container/lxc.py:540
+msgid "Return a list of all active container instances"
+msgstr ""
+
+#: plugins/container/lxc.py:557
+msgid "Timed out in 'lxc info {}'"
+msgstr ""
+
+#: plugins/container/lxc.py:572
+msgid "Failed to parse output from 'lxc info {}'"
+msgstr ""
+
+#: plugins/container/lxc.py:579
+msgid "Failed to run 'lxc info {}'"
+msgstr ""
+
+#: plugins/container/lxc.py:590
+msgid ""
+"Register a callback to invoke when the runtime status of containers change. "
+"The\n"
+"    callback is invoked with (uid, status) where status is one of the "
+"container status\n"
+"    class attributes for CContainerInstance: kRunning, kTerminated, "
+"kStarting,\n"
+"    kStartFailed, kTerminating."
+msgstr ""
+
+#: plugins/container/lxc.py:598
+msgid "Remove a callback previously registered with RegisterStatusCallback()."
+msgstr ""

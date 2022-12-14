@@ -1,0 +1,302 @@
+# Module scripts_editor_extensions translation file for language=es
+# Copyright (C) 2016 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 6.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2016-11-28 20:57 EST\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: scripts/editor-extensions.py:68
+msgid ""
+"Delete the line or range of lines that contain the current selection.\n"
+"  This duplicates what the editor command delete-line does."
+msgstr ""
+
+#: scripts/editor-extensions.py:87
+msgid ""
+"Toggle block comment (with ## at start) on the selected lines in editor.\n"
+"  This is a different style of block commenting than Wing implements by "
+"default\n"
+"  (the default in Wing is intended to work better with some of the other\n"
+"  editor functionality)"
+msgstr ""
+
+#: scripts/editor-extensions.py:138
+msgid ""
+"Change between text-marking and non-text-marking mode.  Style is\n"
+"  \"char\" for stream select, \"block\" for rectangular select, and \"line\" "
+"for line select.\n"
+"  Set select_right=1 to select the character to right of the cursor\n"
+"  when marking is toggled on."
+msgstr ""
+
+#: scripts/editor-extensions.py:167
+msgid ""
+"Bring cursor to start of line, to start of visible area, or to \n"
+"  start of document each successive consecutive invocation of this\n"
+"  command."
+msgstr ""
+
+#: scripts/editor-extensions.py:202
+msgid ""
+"Bring cursor to end of line, to end of visible area, or to \n"
+"  end of document each successive consecutive invocation of this\n"
+"  command."
+msgstr ""
+
+#: scripts/editor-extensions.py:324
+msgid "Transform current selections or current word with the given callback "
+msgstr ""
+
+#: scripts/editor-extensions.py:358
+msgid "Change current selection or current word to all lower case"
+msgstr ""
+
+#: scripts/editor-extensions.py:367
+msgid "Change current selection or current word to all upper case"
+msgstr ""
+
+#: scripts/editor-extensions.py:377
+msgid ""
+"Change current selection or current word to capitalize first letter of each "
+"word"
+msgstr ""
+
+#: scripts/editor-extensions.py:380
+msgid "A better version of string.capwords"
+msgstr ""
+
+#: scripts/editor-extensions.py:390
+msgid ""
+"Toggle current selection or current word between common name formats: "
+"my_symbol_name,\n"
+"  MySymbolName, and mySymbolName"
+msgstr ""
+
+#: scripts/editor-extensions.py:414
+msgid ""
+"Change hyphens (dashes) to underscores in current selection or current word"
+msgstr ""
+
+#: scripts/editor-extensions.py:424
+msgid ""
+"Change underscores to hyphens (dashes) in current selection or current word"
+msgstr ""
+
+#: scripts/editor-extensions.py:434
+msgid ""
+"Surround selected text with (), [], {}, \"\", '', <>, or \\`\\`.  Arg char\n"
+"  should be the opening character.  If there is no selection, the current\n"
+"  word is surrounded."
+msgstr ""
+
+#: scripts/editor-extensions.py:454
+msgid "Sort selected lines of text alphabetically"
+msgstr ""
+
+#: scripts/editor-extensions.py:485
+msgid "Copy the filename for the currently selected file to the clipboard"
+msgstr ""
+
+#: scripts/editor-extensions.py:491
+msgid "Paste from clipboard after removing any >>> and ... prompts"
+msgstr ""
+
+#: scripts/editor-extensions.py:520
+msgid "Modified tab indentation command that acts like tab in Visual Studio."
+msgstr ""
+
+#: scripts/editor-extensions.py:569
+msgid "Convert the current editor to use CR + LF style line endings"
+msgstr ""
+
+#: scripts/editor-extensions.py:576
+msgid "Convert the current editor to use CR style line endings"
+msgstr ""
+
+#: scripts/editor-extensions.py:583
+msgid "Convert the current editor to use LF style line endings"
+msgstr ""
+
+#: scripts/editor-extensions.py:593
+msgid ""
+"Fold up all Python methods, expand all classes, and leave other fold\n"
+"  points alone"
+msgstr ""
+
+#: scripts/editor-extensions.py:633
+msgid "Fold up all Python classes but leave other fold points alone"
+msgstr ""
+
+#: scripts/editor-extensions.py:650
+msgid ""
+"Fold up all Python classes, methods, and functions but leave other fold\n"
+"  points alone"
+msgstr ""
+
+#: scripts/editor-extensions.py:668
+msgid "Approximation of zr key binding in vim"
+msgstr ""
+
+#: scripts/editor-extensions.py:682
+msgid "Approximation of zm key binding in vim"
+msgstr ""
+
+#: scripts/editor-extensions.py:735
+msgid ""
+"Insert a print statement to print a selected variable name and\n"
+"  value, along with the file and line number."
+msgstr ""
+
+#: scripts/editor-extensions.py:766
+msgid ""
+"Do a search on the Python documentation for the selected text\n"
+"  in the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:781
+msgid "Add a debug watch for the selected text in the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:795
+msgid ""
+"Check the current file out of clearcase.  This is best used with Wing\n"
+"  configured to auto-reload unchanged files."
+msgstr ""
+
+#: scripts/editor-extensions.py:808
+msgid ""
+"If editor is split, unsplit it and show the vertical tools panel.\n"
+"    Otherwise, hide the vertical tools and split the editor left-right\n"
+"    Assumes default windowing policy (combined toolbox & editor windows).\n"
+"    Thanks to Jonathan March for this script."
+msgstr ""
+
+#: scripts/editor-extensions.py:822
+msgid ""
+"Toggle between moving the toolboxes to a separate window and\n"
+"    the default single-window mode"
+msgstr ""
+
+#: scripts/editor-extensions.py:832
+msgid ""
+"Insert spaces to reach the next tab stop (units of given tab size\n"
+"  or editor's tab size if none is given)"
+msgstr ""
+
+#: scripts/editor-extensions.py:857
+msgid ""
+"Insert given text at current caret location, replacing any existing \n"
+"  selected text"
+msgstr ""
+
+#: scripts/editor-extensions.py:868
+msgid ""
+"Enter a newline, indent to match previous line and insert a comment\n"
+"  character and a space.  Assumes that auto-indent is enabled."
+msgstr ""
+
+#: scripts/editor-extensions.py:932
+msgid "Provide simple word-list driven auto-completion on the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:961
+msgid "Word"
+msgstr ""
+
+#: scripts/editor-extensions.py:963
+msgid "Word:"
+msgstr ""
+
+#: scripts/editor-extensions.py:975
+msgid ""
+" Display the commands that a key is bound to in the status area.  Does\n"
+"  not fully work for the vi binding. "
+msgstr ""
+
+#: scripts/editor-extensions.py:982 scripts/editor-extensions.py:1009
+msgid " is not bound"
+msgstr ""
+
+#: scripts/editor-extensions.py:1007
+msgid " is bound to "
+msgstr ""
+
+#: scripts/editor-extensions.py:1014
+msgid "Key"
+msgstr ""
+
+#: scripts/editor-extensions.py:1016
+msgid "Press Key(s) then Enter"
+msgstr ""
+
+#: scripts/editor-extensions.py:1021
+msgid ""
+" Variant of emacs style kill-line command that always kills the eol \n"
+"  characters "
+msgstr ""
+
+#: scripts/editor-extensions.py:1040
+msgid ""
+"Copy 'filename, lineno (scope)' optionally followed by the current line\n"
+"  or selected lines to the clipboard.  The scope is omitted if there isn't\n"
+"  one or in a non-Python file."
+msgstr ""
+
+#: scripts/editor-extensions.py:1078
+msgid ""
+"Implement a variant of clipboard copy that copies the whole\n"
+"  current line if there is no selection on the editor."
+msgstr ""
+
+#: scripts/editor-extensions.py:1107
+msgid ""
+"Implement a variant of clipboard cut that cuts the whole\n"
+"  current line if there is no selection on the editor."
+msgstr ""
+
+#: scripts/editor-extensions.py:1146
+msgid ""
+" A variant of paste that inserts line just copied with smart-copy above\n"
+"  current line. "
+msgstr ""
+
+#: scripts/editor-extensions.py:1204
+msgid "Open the url at caret in the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:1213
+msgid "Open the url being clicked in the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:1225
+msgid "Open the filename at the caret in current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:1234
+msgid "Open the filename being clicked in the current editor"
+msgstr ""
+
+#: scripts/editor-extensions.py:1246
+msgid "Initial batch search for the current editor's directory"
+msgstr ""
+
+#: scripts/editor-extensions.py:1258
+msgid " Close all readonly files "
+msgstr ""
+
+#: scripts/editor-extensions.py:1288
+msgid ""
+" Set the current file's executable bit in its permissions.  If set_bit\n"
+"  is true (the default), the executable bit is set; if set_bit is false,\n"
+"  the executable bit is cleared.  This doesn't do anything on windows. "
+msgstr ""

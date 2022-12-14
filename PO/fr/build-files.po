@@ -1,0 +1,200 @@
+# translation of build-files.po to
+# Module build-files translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+# Encolpe DEGOUTE <encolpe.degoute@free.fr>, 2004.
+# Encolpe Degoute <encolpe.degoute@ingeniweb.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: build-files\n"
+"POT-Creation-Date: 2022-12-14 09:43-0500\n"
+"PO-Revision-Date: 2017-05-01 19:55+0200\n"
+"Last-Translator: Jean Sanchez <js.fr@protonmail.ch>\n"
+"Language-Team: support@ingeniweb.com\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-files/releasebuild.py:1734
+msgid "Introduction to Wing %s"
+msgstr "Introduction à Wing %s"
+
+#: build-files/releasebuild.py:1735
+msgid "Wing %s Reference Manual"
+msgstr "Manuel de référence de Wing %s"
+
+#: build-files/releasebuild.py:1736
+msgid "Wing %s How-Tos"
+msgstr "Guides pratiques de Wing %s"
+
+#: build-files/releasebuild.py:1737
+msgid "Wing %s Quick Start Guide"
+msgstr ""
+
+#: build-files/releasebuild.py:1786
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#: build-files/releasebuild.py:2376
+msgid "Wing Pro - Non-Commercial Use"
+msgstr "Wing Pro - Usage non-commercial"
+
+#: build-files/releasebuild.py:2377
+msgid "Wing Pro - Commercial Use"
+msgstr "Wing Pro - Usage commercial"
+
+#: build-files/releasebuild.py:2378
+msgid "Wing Pro - 30-Day Trial"
+msgstr "Wing Pro - Essai de 30 jours"
+
+#~ msgid "Advanced indentation analysis and translation"
+#~ msgstr "Analyse et conversion avancée de l'indentation"
+
+#~ msgid "Folding in the source code editor"
+#~ msgstr "Replier dans l'éditeur de code source"
+
+#~ msgid "Recent menus"
+#~ msgstr "Menu des fichiers récemment ouverts"
+
+#~ msgid "Attach/detach to debug processes"
+#~ msgstr "Attachement/Détachment au processus de débogage"
+
+#~ msgid "Expression and value watching for debugger"
+#~ msgstr "Surveillance d'expressions et des variables pendant le débogage"
+
+#~ msgid "Interactive debug probe tool"
+#~ msgstr "Outil de sondage interactif pour le débogage"
+
+#~ msgid "Debug externally launched processes"
+#~ msgstr "Débogage de processus lancés à l'extérieur"
+
+#~ msgid "Advance exception handling modes"
+#~ msgstr "Modes de gestion avancée des exceptions"
+
+#~ msgid "Module-oriented debug data view"
+#~ msgstr "Vue orientée module des données de débogage"
+
+#~ msgid "Shared projects for use in revision control"
+#~ msgstr "Projets partagés pour utilisation dans un contrôle de révision"
+
+#~ msgid "Advanced breakpoints for debugger"
+#~ msgstr "Points d'arrêts avancés pour le débogueur"
+
+#~ msgid "Debugger breakpoint manager"
+#~ msgstr "Gestionnaire des points d'arrêt du débogueur"
+
+#~ msgid "Source code browser"
+#~ msgstr "Explorateur de code source"
+
+#~ msgid "Source assistant"
+#~ msgstr "Assistant source"
+
+#~ msgid "Scripting support"
+#~ msgstr "Support du scripting"
+
+#~ msgid "Keyboard and command macro support"
+#~ msgstr "Support des macros clavier et des commandes macros"
+
+#~ msgid "User-defined named bookmarks"
+#~ msgstr "Signets nommés définis par l'utilisateur"
+
+#~ msgid "Autocompletion"
+#~ msgstr "Autocomplétion"
+
+#~ msgid "Projects"
+#~ msgstr "Projets"
+
+#~ msgid "Wildcard and regular expression search"
+#~ msgstr "Recherche avec jokers et expression régulière"
+
+#~ msgid "Batch search"
+#~ msgstr "Recherche groupée"
+
+#~ msgid "Disk search"
+#~ msgstr "Recherche sur le disque"
+
+#~ msgid "Multi-window GUI support"
+#~ msgstr "Support du multi- fenêtres dans l'interface utilisateur"
+
+#~ msgid "Messages view"
+#~ msgstr "Vue des messages"
+
+#~ msgid "Unit testing tool"
+#~ msgstr "Outil de test unitaire"
+
+#~ msgid "Support for running external processes in a console"
+#~ msgstr "Support pour lancer les processus externes dans une console"
+
+#~ msgid "Code snippets"
+#~ msgstr "Bouts de code"
+
+#~ msgid "Version control"
+#~ msgstr "Contrôle de version"
+
+#~ msgid "Perspectives"
+#~ msgstr "Perspectives"
+
+#~ msgid "Difference and merge tool"
+#~ msgstr "Outil Différences et fusion"
+
+#~ msgid "Code warnings"
+#~ msgstr "Avertissements de code"
+
+#~ msgid "Auto-editing"
+#~ msgstr "Auto-édition"
+
+#~ msgid "Named file sets"
+#~ msgstr "Ensemble de fichiers nommés"
+
+#~ msgid "Launch Configurations"
+#~ msgstr "Lancer configurations"
+
+#~ msgid "IPython"
+#~ msgstr "IPython"
+
+#~ msgid "Multi-process debugging"
+#~ msgstr "Débogage multi-process"
+
+#~ msgid "Find Symbol in Project"
+#~ msgstr "Trouver un symbole dans le projet"
+
+#~ msgid "Debug code executed in shells"
+#~ msgstr "Déboguer le code exécuté dans les shells"
+
+#~ msgid "Automated remote debugging"
+#~ msgstr "Débogage distant automatisé"
+
+#~ msgid "Generic support specific to Wing 101"
+#~ msgstr "Support générique spécifique à Wing 101"
+
+#~ msgid "Generic support specific to Wing Personal"
+#~ msgstr "Support générique spécifique à Wing Personnel"
+
+#~ msgid "Generic support specific to Wing Pro"
+#~ msgstr "Support générique spécifique à Wing Professionnel"
+
+#~ msgid "101"
+#~ msgstr "101"
+
+#~ msgid "Personal"
+#~ msgstr "Personnel"
+
+#~ msgid "Pro"
+#~ msgstr "Pro"
+
+#~ msgid "Wing Tips"
+#~ msgstr "Conseils Wing"
+
+#~ msgid "Wing for Steam - Non-Commercial Use"
+#~ msgstr "Wing pour Steam - Usage Non-commercial"
+
+#~ msgid "Wing for Steam - Commercial Use"
+#~ msgstr "Wing pour Steam - Usage commercial"
+
+#~ msgid "Wing for Steam - 30-Day Trial"
+#~ msgstr "Wing pour Steam - Essai de 30 jours"

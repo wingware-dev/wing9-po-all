@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_refactoring\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2018-03-14 09:24+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44052\n"
+"X-Loco-Api-Version: 1.0.18 20180307-1\n"
+
+#: src/refactoring/cap_refactorgui.py:88
+msgid "_Rename Symbol"
+msgstr "Переименовать Обозначение"
+
+#: src/refactoring/cap_refactorgui.py:89
+msgid "_Move Symbol"
+msgstr "Переместить Символ"
+
+#: src/refactoring/cap_refactorgui.py:92
+msgid "E_xtract Function / Method"
+msgstr "Извлечь Функцию / Метод"
+
+#: src/refactoring/cap_refactorgui.py:93
+#: src/refactoring/cap_refactorgui.py:807
+msgid "_Introduce Variable"
+msgstr "Ввести Переменную"
+
+#: src/refactoring/cap_refactorgui.py:95
+msgid "Rename Current _Module"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:97
+msgid "Symbol to _lowerCamelCase"
+msgstr "Обозначение в lowerCamelCase"
+
+#: src/refactoring/cap_refactorgui.py:98
+msgid "Symbol to _UpperCamelCase"
+msgstr "Обозначение в UpperCamelCase"
+
+#: src/refactoring/cap_refactorgui.py:99
+msgid "Symbol to under_scored_name"
+msgstr "Обозначение в under_scored_name"
+
+#: src/refactoring/cap_refactorgui.py:100
+msgid "Symbol to UNDER_SCORED_NAME"
+msgstr "Обозначение в UNDER_SCORED_NAME"
+
+#: src/refactoring/cap_refactorgui.py:176
+msgid "Select code to refactor in the editor and then use the Refactor menu"
+msgstr ""
+"Выберите код для рефакторинга в редакторе, а затем используйте меню "
+"Рефакторинг"
+
+#: src/refactoring/cap_refactorgui.py:202
+msgid "Scan for Existing Names"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:205
+msgid "Show Refactoring Documentation"
+msgstr "Показать Документацию По Рефакторингу"
+
+#: src/refactoring/cap_refactorgui.py:535
+msgid "Name Already Exists"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:537
+msgid "The name %s is already defined in the top level scope."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:539
+msgid "The name %s is already defined in %s."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:541
+msgid "Name Masks Enclosing Scope"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:543
+msgid "The name %s is already defined in the enclosing top level scope."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:546
+msgid "The name %s is already defined in the enclosing scope %s."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:547
+msgid ""
+"Completing this operation will cause the existing uses of %s in %s to refer "
+"instead to the newly introduced symbol."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:553
+msgid "Scan for existing names"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:557
+msgid "_Cancel"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:576
+#: src/refactoring/cap_refactorgui.py:805
+msgid "_Name: "
+msgstr "Имя: "
+
+#: src/refactoring/cap_refactorgui.py:579
+msgid "_Toplevel Function"
+msgstr "Функция Верхнего Уровня"
+
+#: src/refactoring/cap_refactorgui.py:582
+msgid "_Method"
+msgstr "Метод"
+
+#: src/refactoring/cap_refactorgui.py:585
+msgid "N_ested Function"
+msgstr "Вложенная функция"
+
+#: src/refactoring/cap_refactorgui.py:593
+msgid "E_xtract"
+msgstr "Извлечь"
+
+#: src/refactoring/cap_refactorgui.py:595
+#: src/refactoring/cap_refactorgui.py:809
+#: src/refactoring/cap_refactorgui.py:1320
+msgid "_Revert"
+msgstr "Вернуть"
+
+#: src/refactoring/cap_refactorgui.py:629
+#: src/refactoring/cap_refactorgui.py:860
+#: src/refactoring/cap_refactorgui.py:1224
+#: src/refactoring/cap_refactorgui.py:1434
+#: src/refactoring/cap_refactorgui.py:1547
+msgid "Revert all changes?"
+msgstr "Отменить все изменения?"
+
+#: src/refactoring/cap_refactorgui.py:630
+#: src/refactoring/cap_refactorgui.py:861
+#: src/refactoring/cap_refactorgui.py:1225
+#: src/refactoring/cap_refactorgui.py:1435
+#: src/refactoring/cap_refactorgui.py:1548
+msgid "Other changes were made to files.  Revert them all?"
+msgstr "Были внесены другие изменения  в файлы.  Вернуть их всех?"
+
+#: src/refactoring/cap_refactorgui.py:667
+#, fuzzy
+msgid "_Extract Anyway"
+msgstr "Извлечь"
+
+#: src/refactoring/cap_refactorgui.py:708
+msgid "line %s"
+msgstr "строка %s"
+
+#: src/refactoring/cap_refactorgui.py:710
+msgid "lines %s through %s"
+msgstr "строки %s через %s"
+
+#: src/refactoring/cap_refactorgui.py:712
+msgid "Extracting %s"
+msgstr "Извлечь %s"
+
+#: src/refactoring/cap_refactorgui.py:737
+msgid "Extract function / method"
+msgstr "Извлечь function / method"
+
+#: src/refactoring/cap_refactorgui.py:892
+#, fuzzy
+msgid "_Introduce Anyway"
+msgstr "Ввести Переменную"
+
+#: src/refactoring/cap_refactorgui.py:914
+msgid "Introducing Variable for: %s"
+msgstr "Ввести переменную для: %s"
+
+#: src/refactoring/cap_refactorgui.py:920
+msgid "Introduce Variable"
+msgstr "Ввести переменную"
+
+#: src/refactoring/cap_refactorgui.py:1017
+msgid "Refresh"
+msgstr "Обновить"
+
+#: src/refactoring/cap_refactorgui.py:1019
+msgid "Show Possible Uses"
+msgstr "Показать Возможные Применения"
+
+#: src/refactoring/cap_refactorgui.py:1021
+msgid "Show Unlikely Uses"
+msgstr "Показать Маловероятное Использование"
+
+#: src/refactoring/cap_refactorgui.py:1027
+msgid "Search Project Files"
+msgstr "Поиск Файлов Проекта"
+
+#: src/refactoring/cap_refactorgui.py:1029
+msgid "Search for uses in all Python files in the project"
+msgstr "Искать во всех Python файлах в проекте"
+
+#: src/refactoring/cap_refactorgui.py:1033
+msgid "Search Original File"
+msgstr "Поиск Исходного Файла"
+
+#: src/refactoring/cap_refactorgui.py:1035
+msgid "Search for uses in the file where the symbol was selected"
+msgstr "Поиск использования в файле, где был выбран символ"
+
+#: src/refactoring/cap_refactorgui.py:1050
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: src/refactoring/cap_refactorgui.py:1105
+msgid "File rename failed"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1107
+msgid "File operations failed"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1109
+msgid ""
+"Could not complete the following file operations. Please check the filenames "
+"and try again."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1113
+msgid "File operations failed while reverting"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1115
+msgid ""
+"Could not complete the following file operations and some changes made "
+"during refactoring could not be reverted.\n"
+"\n"
+"Please check your source files and begin again."
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1160
+msgid "New _Name: "
+msgstr "Новое имя: "
+
+#: src/refactoring/cap_refactorgui.py:1162
+msgid "_Rename Checked"
+msgstr "Переименовать отмеченные"
+
+#: src/refactoring/cap_refactorgui.py:1166
+#: src/refactoring/cap_refactorgui.py:1511
+msgid "Revert"
+msgstr "Вернуть"
+
+#: src/refactoring/cap_refactorgui.py:1202
+#: src/refactoring/cap_refactorgui.py:1218
+#: src/refactoring/cap_refactorgui.py:1541
+msgid "Rename in progress"
+msgstr "Переименование в процессе"
+
+#: src/refactoring/cap_refactorgui.py:1203
+msgid "Renaming %s to %s"
+msgstr "Переименовано %s из %s"
+
+#: src/refactoring/cap_refactorgui.py:1206
+#, fuzzy
+msgid "_Rename Anyway"
+msgstr "Переименовать "
+
+#: src/refactoring/cap_refactorgui.py:1216
+#: src/refactoring/cap_refactorgui.py:1539
+msgid "Reverting renaming %s to %s"
+msgstr "Отмена переименования %s в %s"
+
+#: src/refactoring/cap_refactorgui.py:1258
+#: src/refactoring/cap_refactorgui.py:1484
+msgid "Rename "
+msgstr "Переименовать "
+
+#: src/refactoring/cap_refactorgui.py:1264
+msgid "<module global scope>"
+msgstr "<глобальная область модуля>"
+
+#: src/refactoring/cap_refactorgui.py:1279
+msgid "Destination"
+msgstr "Назначение"
+
+#: src/refactoring/cap_refactorgui.py:1295
+msgid "Destination File"
+msgstr "Файл назначения"
+
+#: src/refactoring/cap_refactorgui.py:1297
+#, fuzzy
+msgid "New _File: "
+msgstr "Файл:"
+
+#: src/refactoring/cap_refactorgui.py:1297
+msgid "_File: "
+msgstr "Файл:"
+
+#: src/refactoring/cap_refactorgui.py:1313
+msgid "_Scope:"
+msgstr "Область:"
+
+#: src/refactoring/cap_refactorgui.py:1315
+#, fuzzy
+msgid "Re_name & Update Checked"
+msgstr "Переместить И Обновить Отмеченное"
+
+#: src/refactoring/cap_refactorgui.py:1342
+#, fuzzy
+msgid "Move Refactoring Failed"
+msgstr "Рефакторинг"
+
+#: src/refactoring/cap_refactorgui.py:1370
+#, fuzzy
+msgid "moving %s"
+msgstr "перемещение %s в %s"
+
+#: src/refactoring/cap_refactorgui.py:1375 src/refactoring/utils.py:164
+msgid " in "
+msgstr "в"
+
+#: src/refactoring/cap_refactorgui.py:1379
+msgid "moving %s to %s"
+msgstr "перемещение %s в %s"
+
+#: src/refactoring/cap_refactorgui.py:1407
+#: src/refactoring/cap_refactorgui.py:1428
+msgid "Move in progress"
+msgstr "Ход выполнения"
+
+#: src/refactoring/cap_refactorgui.py:1409
+msgid "_Move Anyway"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1413
+msgid "Scope Does Not Exist"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1414
+msgid ""
+"The destination scope name '%s' does not exist. Please correct the scope "
+"name and try again"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1427
+msgid "Reverting "
+msgstr "Откат"
+
+#: src/refactoring/cap_refactorgui.py:1482
+msgid "Move "
+msgstr "Переместить"
+
+#: src/refactoring/cap_refactorgui.py:1507
+msgid "_Delete"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1567
+#, fuzzy
+msgid "_Delete Unused Symbol"
+msgstr "Переименовать Обозначение"
+
+#: src/refactoring/cap_refactorgui.py:1569
+msgid "_Ignore Points of Use and Delete Symbol"
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1577
+msgid "Delete "
+msgstr ""
+
+#: src/refactoring/cap_refactorgui.py:1617
+#: src/refactoring/cap_refactorgui.py:1622
+msgid "Refactoring"
+msgstr "Рефакторинг"
+
+#: src/refactoring/operations.py:299
+msgid "Can't introduce variable because original expression is not valid"
+msgstr "Не удается ввести переменную, так как исходное выражение недопустимо"
+
+#: src/refactoring/operations.py:1522
+#, fuzzy
+msgid "function"
+msgstr "функция %s в %s"
+
+#: src/refactoring/operations.py:1523
+#, fuzzy
+msgid "method"
+msgstr "Метод"
+
+#: src/refactoring/operations.py:1537 src/refactoring/operations.py:1547
+msgid " and"
+msgstr ""
+
+#: src/refactoring/prefs.py:21
+msgid ""
+"Controls whether Wing will scan for existing uses of a target symbol before "
+"applying a refactoring operation.  When disabled, a rename or move may use "
+"the same name as an existing symbol."
+msgstr ""
+
+#: src/refactoring/utils.py:127
+msgid "module %s"
+msgstr "модуль %s"
+
+#: src/refactoring/utils.py:140
+msgid "class %s in %s"
+msgstr "класс %s в %s"
+
+#: src/refactoring/utils.py:143
+msgid "method %s of %s in %s"
+msgstr "метод %s %s в %s"
+
+#: src/refactoring/utils.py:146
+msgid "function %s in %s"
+msgstr "функция %s в %s"
+
+#: src/refactoring/utils.py:162
+msgid "module "
+msgstr "модуль"

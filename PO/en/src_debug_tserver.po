@@ -1,0 +1,260 @@
+# Module src_debug_tserver translation file for language=en
+# Copyright (C) 2011 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 4.0.1\n"
+"POT-Creation-Date: 2022-12-14 09:51-0500\n"
+"PO-Revision-Date: 2011-03-30 22:09 EDT\n"
+"Last-Translator: Wingware <support@wingware.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: src/debug/tserver/abstract.py:355
+msgid "Wing Debug Log File\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:356
+msgid "This file can be used to diagnose problems in debugger internals\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:357
+msgid "For help, contact support@wingware.com\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:362
+msgid "Warning:  Log file does not exist:\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:364
+msgid "Warning:  and could not be created; logging disabled\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:367
+msgid "Warning:  Log file is not a file:\n"
+msgstr ""
+
+#: src/debug/tserver/abstract.py:369
+msgid "Warning:  Logging disabled\n"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:59 src/debug/tserver/dbgserver.py:3118
+#: src/debug/tserver/dbgutils.py:489 src/debug/tserver/dbgutils.py:515
+msgid "(truncated)"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:827 src/debug/tserver/dbginspect.py:891
+#: src/debug/tserver/dbginspect.py:967 src/debug/tserver/dbginspect.py:1175
+#: src/debug/tserver/dbginspect.py:1246 src/debug/tserver/dbginspect.py:1354
+#: src/debug/tserver/dbgutils.py:480 src/debug/tserver/dbgutils.py:508
+#: src/debug/tserver/dbgutils.py:2641
+msgid " at %s"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:832 src/debug/tserver/dbginspect.py:896
+#: src/debug/tserver/dbginspect.py:1263 src/debug/tserver/dbgutils.py:235
+msgid "<opaque %s%s>"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:918
+msgid "<huge %s%s; len=%s>"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:973 src/debug/tserver/dbginspect.py:994
+#: src/debug/tserver/dbgutils.py:517 src/debug/tserver/dbgutils.py:2652
+#: src/debug/tserver/dbgutils.py:2657
+msgid "<huge %s%s; len=%i>"
+msgstr ""
+
+#: src/debug/tserver/dbginspect.py:1194 src/debug/tserver/dbgutils.py:2659
+msgid "<huge %s%s>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:1349
+msgid "<module>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:1492
+msgid "<error evaluating>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2089 src/debug/tserver/dbgserver.py:2125
+msgid "<thread %i is running>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2092 src/debug/tserver/dbgserver.py:2128
+msgid "<invalid thread id %s or stack index %s>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2094 src/debug/tserver/dbgserver.py:2130
+msgid "<invalid stack frame>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2158 src/debug/tserver/dbgserver.py:2187
+msgid "<sys.modules does not exist>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2161 src/debug/tserver/dbgserver.py:2192
+msgid "<error accessing sys.modules>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2189
+msgid "<no longer exists"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2237 src/debug/tserver/dbgserver.py:2290
+msgid "<no longer exists>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2268 src/debug/tserver/dbgserver.py:4647
+msgid "<parent too large>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2270 src/debug/tserver/dbgserver.py:4649
+msgid "<invalid parent type>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2280 src/debug/tserver/dbgserver.py:2749
+msgid "<value not found>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2737
+msgid "<thread is running>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:2739
+msgid "<invalid context>"
+msgstr ""
+
+#: src/debug/tserver/dbgserver.py:4655
+msgid "<invalid path %s at pos=%i>"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:152
+msgid "<undefined>"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:168
+msgid "at"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:178
+msgid "len=%s>"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:188 src/debug/tserver/dbgutils.py:2753
+msgid "<error handling value>"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:190
+msgid "<timeout>"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:198
+msgid "<huge "
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:218
+msgid "<long "
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:736 src/debug/tserver/dbgutils.py:748
+msgid ", pos "
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:752
+msgid ", line "
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:754
+msgid "SyntaxError: "
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:782
+msgid "Error"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:792
+msgid "Error: Wing was unable to pack up an exception message"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:3668 src/debug/tserver/dbgutils.py:3684
+msgid "Key"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:3668 src/debug/tserver/dbgutils.py:3684
+msgid "Value"
+msgstr ""
+
+#: src/debug/tserver/dbgutils.py:3679 src/debug/tserver/dbgutils.py:3706
+msgid "Item"
+msgstr ""
+
+#: src/debug/tserver/netserver.py:475
+msgid "Redirected I/O failed on closed debug connection"
+msgstr ""
+
+#: src/debug/tserver/netserver.py:638
+msgid "EOF when reading a line"
+msgstr ""
+
+#: src/debug/tserver/netserver.py:1213
+msgid "(unavailable)"
+msgstr ""
+
+#: src/debug/tserver/netserver.py:1483
+msgid "[omitting some output]"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:233 src/debug/tserver/startdebug.py:367
+msgid "wingdb.py: Error: Debug file does not exist:"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:237 src/debug/tserver/startdebug.py:371
+msgid "wingdb.py: Error: Debug file is not a file:"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:420
+msgid "Network peer is "
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:421
+msgid "Attach port = "
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:422
+msgid "Initial stop = "
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:436
+msgid "wingdb.py: Could not create debug server"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:454
+msgid "wingdb.py: Running %s"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:465 src/debug/tserver/startdebug.py:492
+msgid "wingdb.py: Server exiting abnormally on exception"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:663
+msgid "wingdb.py: Error: Failed to start the debug server"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:664
+msgid "wingdb.py: Error: You may be running an unsupported version of Python"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:665
+msgid "wingdb.py: Python version = %s"
+msgstr ""
+
+#: src/debug/tserver/startdebug.py:755 src/debug/tserver/startdebug.py:757
+msgid "-- Type return or enter to exit --\n"
+msgstr ""

@@ -1,0 +1,216 @@
+# Module src_browser translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing Python IDE -- wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0.0\n"
+"POT-Creation-Date: 2022-12-14 09:51-0500\n"
+"PO-Revision-Date: 2003-07-10 12:22GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/browser/clsbrowse.py:53 src/browser/clsbrowse.py:1302
+msgid "Methods"
+msgstr ""
+
+#: src/browser/clsbrowse.py:54 src/browser/clsbrowse.py:1304
+msgid "Functions"
+msgstr ""
+
+#: src/browser/clsbrowse.py:55 src/browser/clsbrowse.py:1301
+msgid "Classes"
+msgstr ""
+
+#: src/browser/clsbrowse.py:56 src/browser/clsbrowse.py:1303
+msgid "Attributes"
+msgstr ""
+
+#: src/browser/clsbrowse.py:57
+msgid "Derived Classes"
+msgstr ""
+
+#: src/browser/clsbrowse.py:58
+msgid "Modules"
+msgstr ""
+
+#: src/browser/clsbrowse.py:59 src/browser/clsbrowse.py:1305
+msgid "Variables"
+msgstr ""
+
+#: src/browser/clsbrowse.py:61 src/browser/clsbrowse.py:1293
+msgid "Follow Selection"
+msgstr ""
+
+#: src/browser/clsbrowse.py:62
+msgid ""
+"When checked, the browser selection is visited in a non-sticky editor that "
+"auto-closes when hidden.  Double clicking always opens a sticky (non-"
+"transient) file for editing."
+msgstr ""
+
+#: src/browser/clsbrowse.py:67
+msgid "Public"
+msgstr ""
+
+#: src/browser/clsbrowse.py:68
+msgid "Private"
+msgstr ""
+
+#: src/browser/clsbrowse.py:69
+msgid "Semi-Private"
+msgstr ""
+
+#: src/browser/clsbrowse.py:70
+msgid "Inherited"
+msgstr ""
+
+#: src/browser/clsbrowse.py:71
+msgid "Imported"
+msgstr ""
+
+#: src/browser/clsbrowse.py:84
+msgid "Class Hierarchy"
+msgstr ""
+
+#: src/browser/clsbrowse.py:85
+msgid "By Module"
+msgstr ""
+
+#: src/browser/clsbrowse.py:86
+msgid "All Classes"
+msgstr ""
+
+#: src/browser/clsbrowse.py:87
+msgid "Current Module"
+msgstr ""
+
+#: src/browser/clsbrowse.py:88
+msgid "Current Package"
+msgstr ""
+
+#: src/browser/clsbrowse.py:89
+msgid "Python Path"
+msgstr ""
+
+#: src/browser/clsbrowse.py:103
+msgid "Browse Project Modules"
+msgstr ""
+
+#: src/browser/clsbrowse.py:104
+msgid "Browse Project Classes"
+msgstr ""
+
+#: src/browser/clsbrowse.py:106
+msgid "Browse Current Module"
+msgstr ""
+
+#: src/browser/clsbrowse.py:449 src/browser/clsbrowse.py:652
+#: src/browser/clsbrowse.py:665 src/browser/clsbrowse.py:787
+msgid "<i>no children</i>"
+msgstr ""
+
+#: src/browser/clsbrowse.py:585 src/browser/clsbrowse.py:946
+msgid "No symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:625
+msgid "All symbols hidden"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1295
+msgid "Public Symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1296
+msgid "Semi-Private Symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1297
+msgid "Private Symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1298
+msgid "Inherited Symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1299
+msgid "Imported Symbols"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1308
+msgid "Sort Alphabetically"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1309
+msgid "Sort by Type"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1310
+msgid "Sort in File Order"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1323
+msgid "_Options"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1363
+msgid "Hide "
+msgstr ""
+
+#: src/browser/clsbrowse.py:1365
+msgid "Show "
+msgstr ""
+
+#: src/browser/clsbrowse.py:1382
+msgid "Show Source Browser Documentation"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1649
+msgid "Goto Source"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1684
+msgid "Cannot find base class"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1685
+msgid ""
+"Cannot find an instance of the base class to display.  If imported symbols "
+"are not visible in the browser, showing them may enable the base class to be "
+"displayed.  You may also need to adjust other symbol visibility options"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1691
+msgid " base class"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1691
+msgid "Goto "
+msgstr ""
+
+#: src/browser/clsbrowse.py:1711
+msgid "Find Points of Use"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1828 src/browser/clsbrowse.py:1858
+msgid "Source browser state"
+msgstr ""
+
+#: src/browser/clsbrowse.py:1845
+msgid "Source browser visibility option %s"
+msgstr ""
+
+#: src/browser/manager.py:274
+msgid "Source Browser"
+msgstr ""
+
+#: src/browser/manager.py:279
+msgid "Source Code Module and Class Browser"
+msgstr ""

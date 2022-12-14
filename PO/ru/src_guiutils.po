@@ -1,0 +1,813 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: src_guiutils\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-14 09:52-0500\n"
+"PO-Revision-Date: 2018-03-18 18:08+0300\n"
+"Last-Translator: alexandr\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 44357\n"
+"X-Loco-Api-Version: 1.0.19 20180317-1\n"
+
+#: src/guiutils/dialogs.py:631 src/guiutils/filedialog_qt4.py:1202
+#: src/guiutils/formbuilder.py:1454 src/guiutils/formutils.py:512
+#: src/guiutils/formutils.py:844 src/guiutils/trash.py:158
+msgid "_OK"
+msgstr ""
+
+#: src/guiutils/dialogs.py:729 src/guiutils/widgets_qt4.py:4114
+msgid "Details"
+msgstr ""
+
+#: src/guiutils/dialogs.py:825
+msgid "<untitled item>"
+msgstr ""
+
+#: src/guiutils/dockview.py:568
+msgid "Failed to restore visual state for %s"
+msgstr "Не удалось восстановить визуальное состояние %s"
+
+#: src/guiutils/dockview.py:633
+msgid "General error getting panel view state"
+msgstr "Общая ошибка представления панели"
+
+#: src/guiutils/dockview.py:648
+msgid "General error setting panel view state"
+msgstr "Общая ошибка настройки состояния панели"
+
+#: src/guiutils/dockview.py:1567
+msgid "Current tab for tool panel split %i"
+msgstr "Текущая вкладка для tool panel split %i"
+
+#: src/guiutils/dockview.py:1586
+msgid "General error getting notebook doc visual state"
+msgstr "Общая ошибка получения notebook doc visual state"
+
+#: src/guiutils/dockview.py:1655
+msgid "Could not find panel type '%s'"
+msgstr "Не удалось найти тип панели '%s'"
+
+#: src/guiutils/dockview.py:1679
+msgid "General error setting notebook visual state"
+msgstr "Общая ошибкf настройка notebook visual state"
+
+#: src/guiutils/dockview.py:2299
+msgid "General error getting side notebook state"
+msgstr "Общая ошибка получения стороны notebook state"
+
+#: src/guiutils/dockview.py:2333
+msgid "General error setting side notebook state"
+msgstr "Общая ошибка настройки состояния боковой панели блокнота"
+
+#: src/guiutils/docviewer.py:390
+msgid "<< _Back"
+msgstr "<< Назад"
+
+#: src/guiutils/docviewer.py:391
+msgid "_Forward >>"
+msgstr "Вперед >>"
+
+#: src/guiutils/docviewer.py:392
+msgid "<< _Previous"
+msgstr "<< Предыдущий"
+
+#: src/guiutils/docviewer.py:393
+msgid "_Next >>"
+msgstr "Следующий >>"
+
+#: src/guiutils/docviewer.py:394
+msgid "_Contents"
+msgstr "Оглавление"
+
+#: src/guiutils/filedialog_qt4.py:57
+msgid "All Files (*.*)"
+msgstr "Все файлы (*.*)"
+
+#: src/guiutils/filedialog_qt4.py:59
+msgid "All Files (*)"
+msgstr "Все файлы (*)"
+
+#: src/guiutils/filedialog_qt4.py:74
+msgid "Executable Files (*.exe)"
+msgstr "Исполняемые файлы (*.exe)"
+
+#: src/guiutils/filedialog_qt4.py:76
+msgid "Executable Files (*)"
+msgstr "Исполняемые файлы (*)"
+
+#: src/guiutils/filedialog_qt4.py:220 src/guiutils/filedialog_qt4.py:236
+msgid "Create"
+msgstr "Создать"
+
+#: src/guiutils/filedialog_qt4.py:231
+msgid "Use Executable"
+msgstr "Использовать исполняемый файл"
+
+#: src/guiutils/filedialog_qt4.py:235 src/guiutils/filedialog_qt4.py:242
+#: src/guiutils/filedialog_qt4.py:291
+msgid "Directory Name"
+msgstr "Название каталога"
+
+#: src/guiutils/filedialog_qt4.py:246 src/guiutils/filedialog_qt4.py:252
+#: src/guiutils/filedialog_qt4.py:292 src/guiutils/filedialog_qt4.py:723
+msgid "OK"
+msgstr ""
+
+#: src/guiutils/filedialog_qt4.py:251
+msgid "Name"
+msgstr "Имя"
+
+#: src/guiutils/filedialog_qt4.py:556
+msgid "Name of new directory:"
+msgstr "Имя нового каталога:"
+
+#: src/guiutils/filedialog_qt4.py:564
+msgid "_Create"
+msgstr "Создать"
+
+#: src/guiutils/filedialog_qt4.py:565
+msgid "Ca_ncel"
+msgstr "Отмена"
+
+#: src/guiutils/filedialog_qt4.py:568
+msgid "Create New Directory"
+msgstr "Создать новый каталог"
+
+#: src/guiutils/filedialog_qt4.py:696
+msgid "Host:"
+msgstr "Хост:"
+
+#: src/guiutils/filedialog_qt4.py:721
+msgid "_Open File"
+msgstr "Открыть файл"
+
+#: src/guiutils/filedialog_qt4.py:724 src/guiutils/filedialog_qt4.py:727
+msgid "Filename:"
+msgstr "Имя файла:"
+
+#: src/guiutils/filedialog_qt4.py:726
+msgid "_Save As"
+msgstr "Сохранить как"
+
+#: src/guiutils/filedialog_qt4.py:729
+msgid "_Select File"
+msgstr "Выберите файл"
+
+#: src/guiutils/filedialog_qt4.py:731
+msgid "_Create Directory"
+msgstr "Создать каталог"
+
+#: src/guiutils/filedialog_qt4.py:732
+msgid "Directory name:"
+msgstr "Название каталога:"
+
+#: src/guiutils/filedialog_qt4.py:734
+msgid "_Select Directory"
+msgstr "Выбрать каталог"
+
+#: src/guiutils/filedialog_qt4.py:746
+msgid "Show hidden files"
+msgstr "Показать скрытые файлы"
+
+#: src/guiutils/filedialog_qt4.py:752
+msgid "_New Directory"
+msgstr "Новый каталог"
+
+#: src/guiutils/filedialog_qt4.py:758 src/guiutils/formbuilder.py:1455
+#: src/guiutils/formutils.py:519 src/guiutils/formutils.py:845
+#: src/guiutils/trash.py:95 src/guiutils/widgets_qt4.py:2712
+msgid "_Cancel"
+msgstr "Отмена"
+
+#: src/guiutils/filedialog_qt4.py:955
+msgid "Waiting for remote agent"
+msgstr "Ожидание удаленного агента"
+
+#: src/guiutils/filedialog_qt4.py:957
+#, fuzzy
+msgid "Waiting for container"
+msgstr "Ожидание сервера"
+
+#: src/guiutils/filedialog_qt4.py:998
+msgid "Could not reach remote agent"
+msgstr "Не удалось связаться с удаленным агентом"
+
+#: src/guiutils/filedialog_qt4.py:1154
+msgid "Waiting for Server"
+msgstr "Ожидание сервера"
+
+#: src/guiutils/filedialog_qt4.py:1155
+msgid "Cannot create a directory -- the server is not responding."
+msgstr "Невозможно создать каталог-сервер не отвечает."
+
+#: src/guiutils/filedialog_qt4.py:1170
+msgid "Invalid Directory"
+msgstr "Недопустимый Каталог"
+
+#: src/guiutils/filedialog_qt4.py:1171
+msgid "The directory name '%s' is invalid"
+msgstr "Недопустимое имя каталога '%s'"
+
+#: src/guiutils/filedialog_qt4.py:1177
+msgid "Directory Create Failed"
+msgstr "Не удалось создать каталог"
+
+#: src/guiutils/filedialog_qt4.py:1178
+msgid "Failed to create the directory %s: %s"
+msgstr "Не удалось создать каталог %s:%s"
+
+#: src/guiutils/filedialog_qt4.py:1314
+msgid "Invalid Selection"
+msgstr "Недопустимый выбор"
+
+#: src/guiutils/filedialog_qt4.py:1315
+msgid "The selected item is not a file"
+msgstr "Выбранный элемент не является файлом"
+
+#: src/guiutils/formbuilder.py:126
+msgid "True"
+msgstr ""
+
+#: src/guiutils/formbuilder.py:129
+msgid "False"
+msgstr ""
+
+#: src/guiutils/formbuilder.py:875 src/guiutils/formbuilder.py:1001
+#: src/guiutils/formbuilder.py:1051 src/guiutils/formbuilder.py:1114
+#: src/guiutils/formbuilder.py:1771
+msgid "Invalid"
+msgstr ""
+
+#: src/guiutils/formbuilder.py:1165
+msgid "Font Spec"
+msgstr "Спецификация шрифта"
+
+#: src/guiutils/formbuilder.py:1200
+msgid "Color"
+msgstr "Цвет"
+
+#: src/guiutils/formbuilder.py:1236
+msgid "Icon"
+msgstr "Иконка"
+
+#: src/guiutils/formbuilder.py:1240 src/guiutils/formbuilder.py:1535
+msgid "Edit"
+msgstr "Редактировать"
+
+#: src/guiutils/formbuilder.py:1240 src/guiutils/formbuilder.py:1535
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/guiutils/formbuilder.py:1240 src/guiutils/formbuilder.py:1535
+#: src/guiutils/keyboard.py:498
+msgid "Insert"
+msgstr "Вставить"
+
+#: src/guiutils/formbuilder.py:1404
+msgid "New Value"
+msgstr "Новое Значение"
+
+#: src/guiutils/formbuilder.py:1446
+msgid "Edit Value"
+msgstr "Изменить Значение"
+
+#: src/guiutils/formbuilder.py:1535 src/guiutils/formbuilder.py:1636
+msgid "View as Text"
+msgstr "Просмотреть как текст"
+
+#: src/guiutils/formbuilder.py:1638
+msgid "View as List"
+msgstr "Просмотреть в виде списка"
+
+#: src/guiutils/formbuilder.py:1845
+#, fuzzy
+msgid "Directory"
+msgstr "Название каталога"
+
+#: src/guiutils/formbuilder.py:1847
+msgid "Filename"
+msgstr "Имя файла"
+
+#: src/guiutils/formutils.py:532 src/guiutils/formutils.py:846
+msgid "_Apply"
+msgstr "Применить"
+
+#: src/guiutils/keyboard.py:409 src/guiutils/keyboard.py:499
+msgid "Release"
+msgstr ""
+
+#: src/guiutils/keyboard.py:412
+msgid "Timeout-"
+msgstr ""
+
+#: src/guiutils/keyboard.py:415 src/guiutils/keyboard.py:482
+msgid "Ctrl"
+msgstr ""
+
+#: src/guiutils/keyboard.py:417
+#, fuzzy
+msgid "Command"
+msgstr "Команда-"
+
+#: src/guiutils/keyboard.py:419 src/guiutils/keyboard.py:482
+msgid "Alt"
+msgstr ""
+
+#: src/guiutils/keyboard.py:421 src/guiutils/keyboard.py:482
+msgid "Shift"
+msgstr ""
+
+#: src/guiutils/keyboard.py:424
+msgid "<unknown>"
+msgstr ""
+
+#: src/guiutils/keyboard.py:438
+msgid "Shift-Tab"
+msgstr ""
+
+#: src/guiutils/keyboard.py:470
+msgid "Left_Click"
+msgstr "Левый_Click"
+
+#: src/guiutils/keyboard.py:471
+msgid "Middle_Click"
+msgstr "Средний_Click"
+
+#: src/guiutils/keyboard.py:472
+msgid "Right_Click"
+msgstr "Правый_Click"
+
+#: src/guiutils/keyboard.py:482
+msgid "Esc"
+msgstr ""
+
+#: src/guiutils/keyboard.py:482
+msgid "Escape"
+msgstr ""
+
+#: src/guiutils/keyboard.py:483
+msgid "ISO_Left_Tab"
+msgstr ""
+
+#: src/guiutils/keyboard.py:483
+msgid "Tab"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "Down"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "End"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "Home"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "Left"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "Right"
+msgstr ""
+
+#: src/guiutils/keyboard.py:484
+msgid "Up"
+msgstr ""
+
+#: src/guiutils/keyboard.py:485
+msgid "Page_Down"
+msgstr ""
+
+#: src/guiutils/keyboard.py:485
+msgid "Page_Up"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_Down"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_End"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_Home"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_Left"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_Right"
+msgstr ""
+
+#: src/guiutils/keyboard.py:486
+msgid "KP_Up"
+msgstr ""
+
+#: src/guiutils/keyboard.py:487
+msgid "KP_Page_Down"
+msgstr ""
+
+#: src/guiutils/keyboard.py:487
+msgid "KP_Page_Up"
+msgstr ""
+
+#: src/guiutils/keyboard.py:488
+msgid "KP_Add"
+msgstr ""
+
+#: src/guiutils/keyboard.py:488
+msgid "KP_Divide"
+msgstr ""
+
+#: src/guiutils/keyboard.py:488
+msgid "KP_Multiply"
+msgstr ""
+
+#: src/guiutils/keyboard.py:488
+msgid "KP_Subtract"
+msgstr ""
+
+#: src/guiutils/keyboard.py:489
+msgid "Pointer_Button1"
+msgstr ""
+
+#: src/guiutils/keyboard.py:489
+msgid "Pointer_Button2"
+msgstr ""
+
+#: src/guiutils/keyboard.py:489
+msgid "Pointer_Button3"
+msgstr ""
+
+#: src/guiutils/keyboard.py:490
+msgid "Backspace"
+msgstr ""
+
+#: src/guiutils/keyboard.py:490
+msgid "Delete"
+msgstr ""
+
+#: src/guiutils/keyboard.py:490
+msgid "Enter"
+msgstr ""
+
+#: src/guiutils/keyboard.py:490
+msgid "Return"
+msgstr ""
+
+#: src/guiutils/keyboard.py:490
+msgid "Space"
+msgstr ""
+
+#: src/guiutils/keyboard.py:491
+msgid "greater"
+msgstr "больше"
+
+#: src/guiutils/keyboard.py:491
+msgid "less"
+msgstr "меньше"
+
+#: src/guiutils/keyboard.py:491
+msgid "parenleft"
+msgstr ""
+
+#: src/guiutils/keyboard.py:491
+msgid "parenright"
+msgstr ""
+
+#: src/guiutils/keyboard.py:491
+msgid "percent"
+msgstr ""
+
+#: src/guiutils/keyboard.py:492
+msgid "Period"
+msgstr ""
+
+#: src/guiutils/keyboard.py:492
+msgid "Question"
+msgstr "Вопрос"
+
+#: src/guiutils/keyboard.py:492
+msgid "Slash"
+msgstr "Слеш"
+
+#: src/guiutils/keyboard.py:492
+msgid "numbersign"
+msgstr ""
+
+#: src/guiutils/keyboard.py:492 src/guiutils/keyboard.py:495
+msgid "underscore"
+msgstr ""
+
+#: src/guiutils/keyboard.py:493
+msgid "at"
+msgstr ""
+
+#: src/guiutils/keyboard.py:493
+msgid "backquote"
+msgstr ""
+
+#: src/guiutils/keyboard.py:493
+msgid "dollar"
+msgstr ""
+
+#: src/guiutils/keyboard.py:493
+msgid "exclam"
+msgstr ""
+
+#: src/guiutils/keyboard.py:493
+msgid "tilde"
+msgstr ""
+
+#: src/guiutils/keyboard.py:494
+msgid "ampersand"
+msgstr ""
+
+#: src/guiutils/keyboard.py:494
+msgid "asciicircum"
+msgstr ""
+
+#: src/guiutils/keyboard.py:494
+msgid "asterisk"
+msgstr ""
+
+#: src/guiutils/keyboard.py:494
+msgid "minus"
+msgstr ""
+
+#: src/guiutils/keyboard.py:495
+msgid "braceleft"
+msgstr ""
+
+#: src/guiutils/keyboard.py:495
+msgid "braceright"
+msgstr ""
+
+#: src/guiutils/keyboard.py:495
+msgid "equal"
+msgstr ""
+
+#: src/guiutils/keyboard.py:495
+msgid "plus"
+msgstr ""
+
+#: src/guiutils/keyboard.py:496
+msgid "bracketleft"
+msgstr ""
+
+#: src/guiutils/keyboard.py:496
+msgid "bracketright"
+msgstr ""
+
+#: src/guiutils/keyboard.py:496
+msgid "colon"
+msgstr ""
+
+#: src/guiutils/keyboard.py:496
+msgid "semicolon"
+msgstr ""
+
+#: src/guiutils/keyboard.py:497
+msgid "apostrophe"
+msgstr ""
+
+#: src/guiutils/keyboard.py:497
+msgid "backslash"
+msgstr ""
+
+#: src/guiutils/keyboard.py:497
+msgid "bar"
+msgstr ""
+
+#: src/guiutils/keyboard.py:497
+msgid "quotedbl"
+msgstr ""
+
+#: src/guiutils/keyboard.py:498
+msgid "Browse"
+msgstr "Просматривать"
+
+#: src/guiutils/keyboard.py:498
+msgid "Replace"
+msgstr "Заменять"
+
+#: src/guiutils/keyboard.py:498
+msgid "Visual"
+msgstr "Визуальный"
+
+#: src/guiutils/keyboard.py:500
+msgid "Timeout"
+msgstr ""
+
+#: src/guiutils/keyboard.py:598
+msgid "Could not read key map file"
+msgstr "Не удалось прочитать файл карты ключей"
+
+#: src/guiutils/keyboard.py:599
+msgid "The key map file '%s' could not be found or is not readable."
+msgstr "Файл сопоставления ключей '%s' не найден или недоступен для чтения."
+
+#: src/guiutils/trash.py:82
+msgid "No Trash Found"
+msgstr "Не найдено корзины"
+
+#: src/guiutils/trash.py:83
+msgid ""
+"No trash implementation was found.  You may need to initialize your trash by "
+"using it once from a file browser application. Alternatively, you may enable "
+"the fall-back trash system.  This places trash files in ~/.Trash and may not "
+"integrate with your desktop trash."
+msgstr ""
+"Реализация корзины не найдена.  Возможно, потребуется инициализировать "
+"корзину, используя ее один раз из приложения файлового менеджера. Кроме "
+"того, можно включить резервную систему сбора мусора.  Этот вариант помещает "
+"удаленные файлы в ~/.Trash и может не интегрироваться с корзиной рабочего "
+"стола."
+
+#: src/guiutils/trash.py:94
+#, fuzzy
+msgid "_Use Fallback"
+msgstr "Использовать Резервный"
+
+#: src/guiutils/trash.py:146
+msgid "%s: Failed; err=%i"
+msgstr "%s: Failed; err=%i"
+
+#: src/guiutils/trash.py:149
+msgid "Could not Move to Recycling Bin"
+msgstr "Не удалось переместить в корзину"
+
+#: src/guiutils/trash.py:150
+msgid ""
+"Some of the selected items could not be moved to the recycling bin.  Please "
+"check their permissions and try again:"
+msgstr ""
+"Некоторые из выбранных элементов не удалось переместить в корзину.  "
+"Пожалуйста, проверьте их разрешения и повторите попытку:"
+
+#: src/guiutils/trash.py:153
+msgid "Could not Move to Trash"
+msgstr "Не удалось переместить в корзину"
+
+#: src/guiutils/trash.py:154
+msgid ""
+"Some of the selected items could not be moved to the trash.  Please check "
+"their permissions and try again:"
+msgstr ""
+"Некоторые из выбранных элементов не удалось переместить в корзину.  "
+"Пожалуйста, проверьте их разрешения и повторите попытку:"
+
+#: src/guiutils/trash.py:172
+msgid "Moving to Recycling Bin"
+msgstr "Перемещение в корзину"
+
+#: src/guiutils/trash.py:173
+msgid "Moving files to the recycling bin.  Please wait."
+msgstr "Перемещение файлов в корзину. Пожалуйста, подождите."
+
+#: src/guiutils/trash.py:175
+msgid "Moving to Trash"
+msgstr "Перемещение в корзину"
+
+#: src/guiutils/trash.py:176
+msgid "Moving files to the trash.  Please wait."
+msgstr "Перемещение файлов в корзину. Пожалуйста, подождите."
+
+#: src/guiutils/trash.py:181
+msgid "Please wait"
+msgstr "Пожалуйста, подождите"
+
+#: src/guiutils/trash.py:215
+msgid ""
+"Command Failed, err=%s, status=%s: %s\n"
+"%s\n"
+"%s"
+msgstr ""
+"Ошибка команды, err=%s, status=%s: %s\n"
+"%s\n"
+"%s"
+
+#: src/guiutils/trash.py:301
+msgid "Failed to move to trash"
+msgstr "Не удалось переместить в корзину"
+
+#: src/guiutils/trash.py:313
+msgid "Failed to write info file %s"
+msgstr "Не удалось записать файл справки %s"
+
+#: src/guiutils/widgets_qt4.py:1076
+msgid "_Browse..."
+msgstr "Обзор..."
+
+#: src/guiutils/widgets_qt4.py:1449
+msgid "Select directory to use"
+msgstr "Выберите каталог для использования"
+
+#: src/guiutils/widgets_qt4.py:1452
+msgid "Select file to use"
+msgstr "Выберите файл для использования"
+
+#: src/guiutils/widgets_qt4.py:1985
+msgid "Op_tions"
+msgstr "Опции"
+
+#: src/guiutils/widgets_qt4.py:2329 src/guiutils/widgets_qt4.py:2457
+#: src/guiutils/widgets_qt4.py:2552
+msgid "Change..."
+msgstr "Изменение..."
+
+#: src/guiutils/widgets_qt4.py:2660
+msgid "Wing Icons"
+msgstr "Wing иконки"
+
+#: src/guiutils/widgets_qt4.py:2664
+msgid "Stock Icons"
+msgstr "Стандартные иконки"
+
+#: src/guiutils/widgets_qt4.py:2671
+msgid "Select Icon File"
+msgstr "Выберите файл иконки"
+
+#: src/guiutils/widgets_qt4.py:2677
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: src/guiutils/widgets_qt4.py:2711
+#, fuzzy
+msgid "_Use Selected Icon"
+msgstr "Использовать выбранную иконку"
+
+#: src/guiutils/widgets_qt4.py:2714
+msgid "Choose Icon"
+msgstr "Выбрать иконку"
+
+#: src/guiutils/widgets_qt4.py:2874
+msgid "Default from Theme"
+msgstr ""
+
+#: src/guiutils/widgets_qt4.py:2877
+msgid "Custom (%s)..."
+msgstr "Настраиваемый (%s)..."
+
+#: src/guiutils/widgets_qt4.py:2879
+msgid "Custom..."
+msgstr "Настраиваемый..."
+
+#: src/guiutils/widgets_qt4.py:2928
+msgid "Pick Custom Color"
+msgstr ""
+
+#: src/guiutils/widgets_qt4.py:3671
+msgid "_Options"
+msgstr "Опции"
+
+#: src/guiutils/widgets_qt4.py:3724
+msgid "<Unknown>"
+msgstr ""
+
+#: src/guiutils/widgets_qt4.py:4095
+#, fuzzy
+msgid "Please Wait"
+msgstr "Пожалуйста, подождите"
+
+#: src/guiutils/widgets_qt4.py:4119
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/guiutils/widgets_qt4.py:4192
+msgid "Received %s characters of output"
+msgstr ""
+
+#: src/guiutils/widgets_qt4.py:4230
+msgid "Received %s bytes of output"
+msgstr ""
+
+#~ msgid "All Files"
+#~ msgstr "Все файлы"
+
+#, fuzzy
+#~ msgid "Files"
+#~ msgstr "Все файлы"
+
+#~ msgid "Select File"
+#~ msgstr "Выберите файл"
+
+#~ msgid "Select Directory"
+#~ msgstr "Выбрать каталог"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
