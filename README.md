@@ -142,7 +142,7 @@ loaded into the UI.
 
 Some notes for each supported OS:
 
-##Linux##
+**Linux**
 
 To set up a symbolic link from your Wing installation to your development area on Linux,
 use commands like the following:
@@ -155,7 +155,7 @@ You will need to replace xx with the correct 2-letter translation code(s) and ad
 
 To avoid having to run commands as root, install the .tar installation of Wing instead.
 
-##macOS##
+**macOS**
 
 To set up a symbolic link from your Wing installation to your development area on macOS,
 use commands like the following:
@@ -171,7 +171,7 @@ from the command line:
 
 	"/Applications/Wing Pro.app/Contents/Resources/wing"
 
-##Windows##
+**Windows**
 
 On Windows, the command to run to generate the `.mo` files differs somewhat:
 
